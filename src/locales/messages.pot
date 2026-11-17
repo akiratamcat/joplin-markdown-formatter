@@ -1,0 +1,292 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Characters added: {added}, removed: {removed}"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Review formatting changes"
+msgstr ""
+
+msgid "Skipped by the structural safety check: {rules}"
+msgstr ""
+
+msgid "No changes."
+msgstr ""
+
+msgid "No newline at end of file"
+msgstr ""
+
+msgid "No formatting changes needed."
+msgstr ""
+
+msgid "Markdown formatted. {stats}."
+msgstr ""
+
+msgid "Format Markdown"
+msgstr ""
+
+msgid "Formatting applied by the \"Format Markdown\" command."
+msgstr ""
+
+msgid "- (dash)"
+msgstr ""
+
+msgid "* (asterisk)"
+msgstr ""
+
+msgid "Preserve (leave markers unchanged)"
+msgstr ""
+
+msgid "Unordered list marker"
+msgstr ""
+
+msgid "Note: CommonMark treats adjacent lists with different bullets as separate lists; normalizing their markers merges them."
+msgstr ""
+
+msgid "Normalize ordered list numbering"
+msgstr ""
+
+msgid "Renumber ordered lists sequentially, keeping the first item’s number."
+msgstr ""
+
+msgid "Horizontal rule marker"
+msgstr ""
+
+msgid "Emphasis (italic) marker"
+msgstr ""
+
+msgid "Bold marker"
+msgstr ""
+
+msgid "Preserve (leave quotes unchanged)"
+msgstr ""
+
+msgid "Straight (\"quote\")"
+msgstr ""
+
+msgid "Smart (“quote”)"
+msgstr ""
+
+msgid "Double quote style"
+msgstr ""
+
+msgid "Convert double quotes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr ""
+
+msgid "Straight ('quote', don't)"
+msgstr ""
+
+msgid "Smart (‘quote’, don’t)"
+msgstr ""
+
+msgid "Single quote style"
+msgstr ""
+
+msgid "Convert single quotes and apostrophes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr ""
+
+msgid "All (also collapse line breaks, keeping labels on one line)"
+msgstr ""
+
+msgid "Spaces only (preserve line breaks inside labels)"
+msgstr ""
+
+msgid "Preserve (leave link text unchanged)"
+msgstr ""
+
+msgid "Link text spacing"
+msgstr ""
+
+msgid "Collapse excess internal whitespace and trim leading/trailing spaces inside link text, including reference links. All also turns line breaks (soft and hard) into a space; spaces only preserves line breaks and their surrounding whitespace while normalizing other whitespace on each line. Inline code inside link text and image alt text are never changed."
+msgstr ""
+
+msgid "Semantic (keep tight/loose as authored, fix mixed spacing)"
+msgstr ""
+
+msgid "Preserve as written"
+msgstr ""
+
+msgid "Tight (no blank lines between items)"
+msgstr ""
+
+msgid "Loose (blank line between items)"
+msgstr ""
+
+msgid "List spacing"
+msgstr ""
+
+msgid "Semantic keeps each list tight or loose as authored and only makes mixed spacing consistent, so rendering never changes. This setting also controls spacing between blocks inside list items; the individual block-spacing settings only affect root-level blocks. Note: Tightening is skipped for a whole list when any item holds multi-block content (e.g. a second paragraph)"
+msgstr ""
+
+msgid "Tabs"
+msgstr ""
+
+msgid "2 spaces"
+msgstr ""
+
+msgid "4 spaces"
+msgstr ""
+
+msgid "List indentation"
+msgstr ""
+
+msgid "Preferred indentation before nested list markers. It may be widened to preserve CommonMark nesting; for example, 2 spaces becomes 3 beneath `1.` and 4 beneath `10.`."
+msgstr ""
+
+msgid "Preserve (leave tables unchanged)"
+msgstr ""
+
+msgid "Compact (one space of cell padding)"
+msgstr ""
+
+msgid "Aligned (pad cells so pipes line up)"
+msgstr ""
+
+msgid "Table style"
+msgstr ""
+
+msgid "How to lay out table cells and delimiter rows."
+msgstr ""
+
+msgid "Ensure blank lines around headings"
+msgstr ""
+
+msgid "Add one blank line before and after root-level headings when neighboring content exists."
+msgstr ""
+
+msgid "Normalize heading marker spacing"
+msgstr ""
+
+msgid "Use one space between ATX heading markers and heading text, including optional closing markers."
+msgstr ""
+
+msgid "Remove heading indentation"
+msgstr ""
+
+msgid "Move root-level ATX headings to the start of the line. Indented code and headings inside lists or blockquotes are unchanged."
+msgstr ""
+
+msgid "Ensure blank lines around paragraphs"
+msgstr ""
+
+msgid "Add one blank line before and after root-level paragraphs when neighboring content exists."
+msgstr ""
+
+msgid "Ensure blank lines around code blocks"
+msgstr ""
+
+msgid "Add one blank line before and after root-level code blocks when neighboring content exists."
+msgstr ""
+
+msgid "Set default language on unlabeled code blocks"
+msgstr ""
+
+msgid "Add the configured language to fenced code blocks that do not specify one. Indented code blocks are left unchanged."
+msgstr ""
+
+msgid "Default code block language"
+msgstr ""
+
+msgid "Language identifier to add when the default code block language rule is enabled, for example text, javascript, or bash."
+msgstr ""
+
+msgid "Ensure blank lines around math blocks"
+msgstr ""
+
+msgid "Add one blank line before and after root-level math blocks when neighboring content exists."
+msgstr ""
+
+msgid "Ensure blank lines around tables"
+msgstr ""
+
+msgid "Add one blank line before and after root-level tables when neighboring content exists."
+msgstr ""
+
+msgid "Ensure blank lines around blockquotes"
+msgstr ""
+
+msgid "Add one blank line before and after root-level blockquotes when neighboring content exists."
+msgstr ""
+
+msgid "Normalize blockquote marker spacing"
+msgstr ""
+
+msgid "Use one space between blockquote `>` markers and quoted content, and between markers in nested quotes (`>>` becomes `> >`). Content requiring exact indentation (e.g. code inside the quote) and lists inside blockquotes are left unchanged."
+msgstr ""
+
+msgid "Ensure blank lines around lists"
+msgstr ""
+
+msgid "Add one blank line before and after root-level lists when neighboring content exists."
+msgstr ""
+
+msgid "Ensure blank line after front matter"
+msgstr ""
+
+msgid "Add one blank line between YAML front matter and following content."
+msgstr ""
+
+msgid "Normalize heading level increments"
+msgstr ""
+
+msgid "Lower skipped heading levels so headings increase by at most one level at a time."
+msgstr ""
+
+msgid "None (no minimum heading level)"
+msgstr ""
+
+msgid "H2 (start the note at level 2)"
+msgstr ""
+
+msgid "First heading (start at the first heading’s own level)"
+msgstr ""
+
+msgid "Minimum heading level"
+msgstr ""
+
+msgid "Shallowest heading level the note may use, applied by the heading level increment rule. H2 moves every heading by the same amount so the first one becomes level 2, keeping the note’s relative hierarchy. First heading keeps the first heading as written and raises any later heading that goes above it. Setext (underlined) headings are left as written."
+msgstr ""
+
+msgid "Collapse consecutive blank lines"
+msgstr ""
+
+msgid "Reduce runs of blank lines to a single blank line (outside code blocks)."
+msgstr ""
+
+msgid "Trim trailing whitespace"
+msgstr ""
+
+msgid "Remove trailing spaces and tabs outside protected content, preserving two-space hard line breaks."
+msgstr ""
+
+msgid "Remove leading blank lines"
+msgstr ""
+
+msgid "Start the note with its first content or front matter, without blank lines before it."
+msgstr ""
+
+msgid "Ensure trailing newline"
+msgstr ""
+
+msgid "End the note with exactly one newline."
+msgstr ""
+
+msgid "Preview changes before applying"
+msgstr ""
+
+msgid "Show the formatting changes as a diff, with buttons to apply or cancel them."
+msgstr ""
+
+msgid "Display toast messages"
+msgstr ""
+
+msgid "Show a toast after formatting with the number of characters added and removed."
+msgstr ""

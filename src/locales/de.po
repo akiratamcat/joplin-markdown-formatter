@@ -1,0 +1,297 @@
+# German translation of Joplin Markdown Formatter.
+# Machine-generated for a personal test build; not reviewed by a native speaker.
+msgid ""
+msgstr ""
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Characters added: {added}, removed: {removed}"
+msgstr "Zeichen hinzugefügt: {added}, entfernt: {removed}"
+
+msgid "Apply"
+msgstr "Übernehmen"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Review formatting changes"
+msgstr "Formatierungsänderungen prüfen"
+
+msgid "Skipped by the structural safety check: {rules}"
+msgstr "Von der strukturellen Sicherheitsprüfung übersprungen: {rules}"
+
+msgid "No changes."
+msgstr "Keine Änderungen."
+
+msgid "No newline at end of file"
+msgstr "Kein Zeilenumbruch am Dateiende"
+
+msgid "No formatting changes needed."
+msgstr "Keine Formatierungsänderungen erforderlich."
+
+msgid "Markdown formatted. {stats}."
+msgstr "Markdown formatiert. {stats}."
+
+msgid "Format Markdown"
+msgstr "Markdown formatieren"
+
+msgid "Formatting applied by the \"Format Markdown\" command."
+msgstr "Formatierung, die der Befehl „Markdown formatieren“ anwendet."
+
+msgid "- (dash)"
+msgstr "- (Bindestrich)"
+
+msgid "* (asterisk)"
+msgstr "* (Sternchen)"
+
+msgid "Preserve (leave markers unchanged)"
+msgstr "Beibehalten (Markierungen nicht ändern)"
+
+msgid "Unordered list marker"
+msgstr "Markierung für ungeordnete Listen"
+
+msgid "Note: CommonMark treats adjacent lists with different bullets as separate lists; normalizing their markers merges them."
+msgstr "Hinweis: CommonMark behandelt benachbarte Listen mit unterschiedlichen Aufzählungszeichen als getrennte Listen; das Vereinheitlichen der Markierungen führt sie zusammen."
+
+msgid "Normalize ordered list numbering"
+msgstr "Nummerierung geordneter Listen normalisieren"
+
+msgid "Renumber ordered lists sequentially, keeping the first item’s number."
+msgstr "Geordnete Listen fortlaufend neu nummerieren, wobei die Nummer des ersten Eintrags erhalten bleibt."
+
+msgid "Horizontal rule marker"
+msgstr "Markierung für horizontale Linien"
+
+msgid "Emphasis (italic) marker"
+msgstr "Markierung für Hervorhebung (kursiv)"
+
+msgid "Bold marker"
+msgstr "Markierung für Fettdruck"
+
+msgid "Preserve (leave quotes unchanged)"
+msgstr "Beibehalten (Anführungszeichen nicht ändern)"
+
+msgid "Straight (\"quote\")"
+msgstr "Gerade (\"quote\")"
+
+msgid "Smart (“quote”)"
+msgstr "Typografisch (“quote”)"
+
+msgid "Double quote style"
+msgstr "Stil für doppelte Anführungszeichen"
+
+msgid "Convert double quotes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "Doppelte Anführungszeichen im Fließtext umwandeln. Code, Mathematik, HTML, Front Matter und Linktitel werden nie geändert."
+
+msgid "Straight ('quote', don't)"
+msgstr "Gerade ('quote', don't)"
+
+msgid "Smart (‘quote’, don’t)"
+msgstr "Typografisch (‘quote’, don’t)"
+
+msgid "Single quote style"
+msgstr "Stil für einfache Anführungszeichen"
+
+msgid "Convert single quotes and apostrophes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "Einfache Anführungszeichen und Apostrophe im Fließtext umwandeln. Code, Mathematik, HTML, Front Matter und Linktitel werden nie geändert."
+
+msgid "All (also collapse line breaks, keeping labels on one line)"
+msgstr "Alle (auch Zeilenumbrüche zusammenfassen, Beschriftungen bleiben einzeilig)"
+
+msgid "Spaces only (preserve line breaks inside labels)"
+msgstr "Nur Leerzeichen (Zeilenumbrüche in Beschriftungen beibehalten)"
+
+msgid "Preserve (leave link text unchanged)"
+msgstr "Beibehalten (Linktext nicht ändern)"
+
+msgid "Link text spacing"
+msgstr "Leerraum im Linktext"
+
+msgid "Collapse excess internal whitespace and trim leading/trailing spaces inside link text, including reference links. All also turns line breaks (soft and hard) into a space; spaces only preserves line breaks and their surrounding whitespace while normalizing other whitespace on each line. Inline code inside link text and image alt text are never changed."
+msgstr "Überzähligen Leerraum im Linktext zusammenfassen und führende/abschließende Leerzeichen entfernen, auch bei Referenzlinks. „Alle“ wandelt zusätzlich Zeilenumbrüche (weiche und harte) in ein Leerzeichen um; „Nur Leerzeichen“ behält Zeilenumbrüche und den umgebenden Leerraum bei und normalisiert den übrigen Leerraum jeder Zeile. Inline-Code im Linktext und Alternativtexte von Bildern werden nie geändert."
+
+msgid "Semantic (keep tight/loose as authored, fix mixed spacing)"
+msgstr "Semantisch (eng/weit wie geschrieben beibehalten, gemischte Abstände korrigieren)"
+
+msgid "Preserve as written"
+msgstr "Wie geschrieben beibehalten"
+
+msgid "Tight (no blank lines between items)"
+msgstr "Eng (keine Leerzeilen zwischen Einträgen)"
+
+msgid "Loose (blank line between items)"
+msgstr "Weit (Leerzeile zwischen Einträgen)"
+
+msgid "List spacing"
+msgstr "Listenabstand"
+
+msgid "Semantic keeps each list tight or loose as authored and only makes mixed spacing consistent, so rendering never changes. This setting also controls spacing between blocks inside list items; the individual block-spacing settings only affect root-level blocks. Note: Tightening is skipped for a whole list when any item holds multi-block content (e.g. a second paragraph)"
+msgstr "„Semantisch“ behält jede Liste eng oder weit wie geschrieben bei und vereinheitlicht nur gemischte Abstände, sodass sich die Darstellung nie ändert. Diese Einstellung steuert auch die Abstände zwischen Blöcken innerhalb von Listeneinträgen; die einzelnen Blockabstands-Einstellungen wirken nur auf Blöcke der obersten Ebene. Hinweis: Das Verengen wird für die gesamte Liste übersprungen, wenn ein Eintrag mehrere Blöcke enthält (z. B. einen zweiten Absatz)."
+
+msgid "Tabs"
+msgstr "Tabulatoren"
+
+msgid "2 spaces"
+msgstr "2 Leerzeichen"
+
+msgid "4 spaces"
+msgstr "4 Leerzeichen"
+
+msgid "List indentation"
+msgstr "Listeneinrückung"
+
+msgid "Preferred indentation before nested list markers. It may be widened to preserve CommonMark nesting; for example, 2 spaces becomes 3 beneath `1.` and 4 beneath `10.`."
+msgstr "Bevorzugte Einrückung vor verschachtelten Listenmarkierungen. Sie kann verbreitert werden, um die CommonMark-Verschachtelung zu erhalten; zum Beispiel werden 2 Leerzeichen unter `1.` zu 3 und unter `10.` zu 4."
+
+msgid "Preserve (leave tables unchanged)"
+msgstr "Beibehalten (Tabellen nicht ändern)"
+
+msgid "Compact (one space of cell padding)"
+msgstr "Kompakt (ein Leerzeichen Zellenabstand)"
+
+msgid "Aligned (pad cells so pipes line up)"
+msgstr "Ausgerichtet (Zellen auffüllen, sodass die senkrechten Striche untereinander stehen)"
+
+msgid "Table style"
+msgstr "Tabellenstil"
+
+msgid "How to lay out table cells and delimiter rows."
+msgstr "Wie Tabellenzellen und Trennzeilen angeordnet werden."
+
+msgid "Ensure blank lines around headings"
+msgstr "Leerzeilen um Überschriften sicherstellen"
+
+msgid "Add one blank line before and after root-level headings when neighboring content exists."
+msgstr "Vor und nach Überschriften der obersten Ebene eine Leerzeile einfügen, wenn angrenzender Inhalt vorhanden ist."
+
+msgid "Normalize heading marker spacing"
+msgstr "Abstand nach Überschriftenmarkierungen normalisieren"
+
+msgid "Use one space between ATX heading markers and heading text, including optional closing markers."
+msgstr "Genau ein Leerzeichen zwischen ATX-Überschriftenmarkierungen und dem Überschriftentext verwenden, einschließlich optionaler schließender Markierungen."
+
+msgid "Remove heading indentation"
+msgstr "Einrückung von Überschriften entfernen"
+
+msgid "Move root-level ATX headings to the start of the line. Indented code and headings inside lists or blockquotes are unchanged."
+msgstr "ATX-Überschriften der obersten Ebene an den Zeilenanfang verschieben. Eingerückter Code und Überschriften in Listen oder Zitaten bleiben unverändert."
+
+msgid "Ensure blank lines around paragraphs"
+msgstr "Leerzeilen um Absätze sicherstellen"
+
+msgid "Add one blank line before and after root-level paragraphs when neighboring content exists."
+msgstr "Vor und nach Absätzen der obersten Ebene eine Leerzeile einfügen, wenn angrenzender Inhalt vorhanden ist."
+
+msgid "Ensure blank lines around code blocks"
+msgstr "Leerzeilen um Codeblöcke sicherstellen"
+
+msgid "Add one blank line before and after root-level code blocks when neighboring content exists."
+msgstr "Vor und nach Codeblöcken der obersten Ebene eine Leerzeile einfügen, wenn angrenzender Inhalt vorhanden ist."
+
+msgid "Set default language on unlabeled code blocks"
+msgstr "Standardsprache für Codeblöcke ohne Sprachangabe festlegen"
+
+msgid "Add the configured language to fenced code blocks that do not specify one. Indented code blocks are left unchanged."
+msgstr "Die konfigurierte Sprache zu umzäunten Codeblöcken hinzufügen, die keine angeben. Eingerückte Codeblöcke bleiben unverändert."
+
+msgid "Default code block language"
+msgstr "Standardsprache für Codeblöcke"
+
+msgid "Language identifier to add when the default code block language rule is enabled, for example text, javascript, or bash."
+msgstr "Sprachkennung, die hinzugefügt wird, wenn die Regel für die Standardsprache von Codeblöcken aktiviert ist, zum Beispiel text, javascript oder bash."
+
+msgid "Ensure blank lines around math blocks"
+msgstr "Leerzeilen um Mathematikblöcke sicherstellen"
+
+msgid "Add one blank line before and after root-level math blocks when neighboring content exists."
+msgstr "Vor und nach Mathematikblöcken der obersten Ebene eine Leerzeile einfügen, wenn angrenzender Inhalt vorhanden ist."
+
+msgid "Ensure blank lines around tables"
+msgstr "Leerzeilen um Tabellen sicherstellen"
+
+msgid "Add one blank line before and after root-level tables when neighboring content exists."
+msgstr "Vor und nach Tabellen der obersten Ebene eine Leerzeile einfügen, wenn angrenzender Inhalt vorhanden ist."
+
+msgid "Ensure blank lines around blockquotes"
+msgstr "Leerzeilen um Zitate sicherstellen"
+
+msgid "Add one blank line before and after root-level blockquotes when neighboring content exists."
+msgstr "Vor und nach Zitaten der obersten Ebene eine Leerzeile einfügen, wenn angrenzender Inhalt vorhanden ist."
+
+msgid "Normalize blockquote marker spacing"
+msgstr "Abstand nach Zitatmarkierungen normalisieren"
+
+msgid "Use one space between blockquote `>` markers and quoted content, and between markers in nested quotes (`>>` becomes `> >`). Content requiring exact indentation (e.g. code inside the quote) and lists inside blockquotes are left unchanged."
+msgstr "Genau ein Leerzeichen zwischen Zitatmarkierungen `>` und dem zitierten Inhalt sowie zwischen Markierungen verschachtelter Zitate verwenden (`>>` wird zu `> >`). Inhalte, die eine exakte Einrückung erfordern (z. B. Code im Zitat), und Listen in Zitaten bleiben unverändert."
+
+msgid "Ensure blank lines around lists"
+msgstr "Leerzeilen um Listen sicherstellen"
+
+msgid "Add one blank line before and after root-level lists when neighboring content exists."
+msgstr "Vor und nach Listen der obersten Ebene eine Leerzeile einfügen, wenn angrenzender Inhalt vorhanden ist."
+
+msgid "Ensure blank line after front matter"
+msgstr "Leerzeile nach Front Matter sicherstellen"
+
+msgid "Add one blank line between YAML front matter and following content."
+msgstr "Eine Leerzeile zwischen YAML-Front-Matter und dem folgenden Inhalt einfügen."
+
+msgid "Normalize heading level increments"
+msgstr "Stufenfolge der Überschriften normalisieren"
+
+msgid "Lower skipped heading levels so headings increase by at most one level at a time."
+msgstr "Übersprungene Überschriftenebenen absenken, sodass Überschriften jeweils höchstens um eine Ebene tiefer werden."
+
+msgid "None (no minimum heading level)"
+msgstr "Keine (keine minimale Überschriftenebene)"
+
+msgid "H2 (start the note at level 2)"
+msgstr "H2 (Notiz auf Ebene 2 beginnen)"
+
+msgid "First heading (start at the first heading’s own level)"
+msgstr "Erste Überschrift (auf der Ebene der ersten Überschrift beginnen)"
+
+msgid "Minimum heading level"
+msgstr "Minimale Überschriftenebene"
+
+msgid "Shallowest heading level the note may use, applied by the heading level increment rule. H2 moves every heading by the same amount so the first one becomes level 2, keeping the note’s relative hierarchy. First heading keeps the first heading as written and raises any later heading that goes above it. Setext (underlined) headings are left as written."
+msgstr "Höchste Überschriftenebene, die die Notiz verwenden darf; angewendet von der Regel für die Stufenfolge der Überschriften. „H2“ verschiebt alle Überschriften um denselben Betrag, sodass die erste zur Ebene 2 wird, und erhält die relative Hierarchie der Notiz. „Erste Überschrift“ lässt die erste Überschrift wie geschrieben und senkt jede spätere Überschrift ab, die darüber liegt. Setext-Überschriften (unterstrichen) bleiben wie geschrieben."
+
+msgid "Collapse consecutive blank lines"
+msgstr "Aufeinanderfolgende Leerzeilen zusammenfassen"
+
+msgid "Reduce runs of blank lines to a single blank line (outside code blocks)."
+msgstr "Folgen von Leerzeilen auf eine einzelne Leerzeile reduzieren (außerhalb von Codeblöcken)."
+
+msgid "Trim trailing whitespace"
+msgstr "Leerraum am Zeilenende entfernen"
+
+msgid "Remove trailing spaces and tabs outside protected content, preserving two-space hard line breaks."
+msgstr "Leerzeichen und Tabulatoren am Zeilenende außerhalb geschützter Inhalte entfernen; harte Zeilenumbrüche aus zwei Leerzeichen bleiben erhalten."
+
+msgid "Remove leading blank lines"
+msgstr "Führende Leerzeilen entfernen"
+
+msgid "Start the note with its first content or front matter, without blank lines before it."
+msgstr "Die Notiz ohne vorangehende Leerzeilen mit ihrem ersten Inhalt oder dem Front Matter beginnen lassen."
+
+msgid "Ensure trailing newline"
+msgstr "Abschließenden Zeilenumbruch sicherstellen"
+
+msgid "End the note with exactly one newline."
+msgstr "Die Notiz mit genau einem Zeilenumbruch enden lassen."
+
+msgid "Preview changes before applying"
+msgstr "Änderungen vor dem Übernehmen anzeigen"
+
+msgid "Show the formatting changes as a diff, with buttons to apply or cancel them."
+msgstr "Die Formatierungsänderungen als Diff anzeigen, mit Schaltflächen zum Übernehmen oder Abbrechen."
+
+msgid "Display toast messages"
+msgstr "Toast-Meldungen anzeigen"
+
+msgid "Show a toast after formatting with the number of characters added and removed."
+msgstr "Nach dem Formatieren eine Meldung mit der Anzahl der hinzugefügten und entfernten Zeichen anzeigen."

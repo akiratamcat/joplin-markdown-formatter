@@ -3,6 +3,7 @@ import { ContentScriptType, MenuItemLocation, ToastType, ToolbarButtonLocation }
 import { EDITOR_CONTENT_SCRIPT_ID, GET_NOTE_TEXT_COMMAND, SET_NOTE_TEXT_COMMAND } from './constants';
 import { confirmFormattingChanges, registerDiffPreviewDialog } from './diffPreview/dialog';
 import { executeFormatMarkdownNote, type FormatNoteCommandDependencies } from './formatNoteCommand';
+import { _, initI18n } from './i18n';
 import logger from './logger';
 import { loadDisplayToastMessages, loadFormatterOptions, loadShowDiffPreview, registerSettings } from './settings';
 
@@ -33,6 +34,11 @@ const formatNoteCommandDependencies: FormatNoteCommandDependencies = {
 
 void joplin.plugins.register({
     onStart: async function () {
+        // Joplin restarts after a language change, so the locale is read once.
+        const globals: unknown[] = await joplin.settings.globalValues(['locale']);
+        const locale = globals[0];
+        initI18n(typeof locale === 'string' ? locale : null);
+
         await registerSettings();
         await registerDiffPreviewDialog();
 
@@ -44,7 +50,7 @@ void joplin.plugins.register({
 
         await joplin.commands.register({
             name: 'formatMarkdownNote',
-            label: 'Format Markdown',
+            label: _('Format Markdown'),
             iconName: 'fas fa-align-left',
             execute: async () => executeFormatMarkdownNote(formatNoteCommandDependencies),
         });

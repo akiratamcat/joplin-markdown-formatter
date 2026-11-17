@@ -1,5 +1,7 @@
 import { DIFF_DELETE, DIFF_INSERT, diffCleanupEfficiency, diffMain } from 'diff-match-patch-es';
 
+import { _ } from './i18n';
+
 export interface CharacterChangeStats {
     added: number;
     removed: number;
@@ -23,10 +25,7 @@ export function computeCharacterChangeStats(oldText: string, newText: string): C
     return { added, removed };
 }
 
-function pluralize(count: number, noun: string): string {
-    return `${count} ${noun}${count === 1 ? '' : 's'}`;
-}
-
+/** Plural-free wording, so every language needs a single translation. */
 export function formatCharacterChangeStats(stats: CharacterChangeStats): string {
-    return `${pluralize(stats.added, 'character')} added, ${pluralize(stats.removed, 'character')} removed`;
+    return _('Characters added: {added}, removed: {removed}', { added: stats.added, removed: stats.removed });
 }

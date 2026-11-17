@@ -1,0 +1,297 @@
+# Japanese translation of Joplin Markdown Formatter.
+# Machine-generated for a personal test build; not reviewed by a native speaker.
+msgid ""
+msgstr ""
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Characters added: {added}, removed: {removed}"
+msgstr "追加した文字数: {added}、削除した文字数: {removed}"
+
+msgid "Apply"
+msgstr "適用"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Review formatting changes"
+msgstr "整形による変更の確認"
+
+msgid "Skipped by the structural safety check: {rules}"
+msgstr "構造の安全チェックによりスキップされたルール: {rules}"
+
+msgid "No changes."
+msgstr "変更はありません。"
+
+msgid "No newline at end of file"
+msgstr "ファイル末尾に改行がありません"
+
+msgid "No formatting changes needed."
+msgstr "整形が必要な箇所はありません。"
+
+msgid "Markdown formatted. {stats}."
+msgstr "Markdown を整形しました。{stats}。"
+
+msgid "Format Markdown"
+msgstr "Markdown を整形"
+
+msgid "Formatting applied by the \"Format Markdown\" command."
+msgstr "「Markdown を整形」コマンドで適用される整形の設定です。"
+
+msgid "- (dash)"
+msgstr "- (ハイフン)"
+
+msgid "* (asterisk)"
+msgstr "* (アスタリスク)"
+
+msgid "Preserve (leave markers unchanged)"
+msgstr "維持 (マーカーを変更しない)"
+
+msgid "Unordered list marker"
+msgstr "箇条書きリストのマーカー"
+
+msgid "Note: CommonMark treats adjacent lists with different bullets as separate lists; normalizing their markers merges them."
+msgstr "注意: CommonMark では、マーカーの異なる隣接リストは別々のリストとして扱われます。マーカーを統一するとそれらは 1 つのリストに結合されます。"
+
+msgid "Normalize ordered list numbering"
+msgstr "番号付きリストの番号を振り直す"
+
+msgid "Renumber ordered lists sequentially, keeping the first item’s number."
+msgstr "番号付きリストを、最初の項目の番号を保ったまま連番に振り直します。"
+
+msgid "Horizontal rule marker"
+msgstr "水平線のマーカー"
+
+msgid "Emphasis (italic) marker"
+msgstr "強調 (斜体) のマーカー"
+
+msgid "Bold marker"
+msgstr "太字のマーカー"
+
+msgid "Preserve (leave quotes unchanged)"
+msgstr "維持 (引用符を変更しない)"
+
+msgid "Straight (\"quote\")"
+msgstr "ストレート (\"quote\")"
+
+msgid "Smart (“quote”)"
+msgstr "スマート (“quote”)"
+
+msgid "Double quote style"
+msgstr "二重引用符のスタイル"
+
+msgid "Convert double quotes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "本文中の二重引用符を変換します。コード、数式、HTML、フロントマター、リンクのタイトルは変更しません。"
+
+msgid "Straight ('quote', don't)"
+msgstr "ストレート ('quote', don't)"
+
+msgid "Smart (‘quote’, don’t)"
+msgstr "スマート (‘quote’, don’t)"
+
+msgid "Single quote style"
+msgstr "一重引用符のスタイル"
+
+msgid "Convert single quotes and apostrophes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "本文中の一重引用符とアポストロフィを変換します。コード、数式、HTML、フロントマター、リンクのタイトルは変更しません。"
+
+msgid "All (also collapse line breaks, keeping labels on one line)"
+msgstr "すべて (改行もまとめ、ラベルを 1 行にする)"
+
+msgid "Spaces only (preserve line breaks inside labels)"
+msgstr "空白のみ (ラベル内の改行は維持する)"
+
+msgid "Preserve (leave link text unchanged)"
+msgstr "維持 (リンクテキストを変更しない)"
+
+msgid "Link text spacing"
+msgstr "リンクテキストの空白"
+
+msgid "Collapse excess internal whitespace and trim leading/trailing spaces inside link text, including reference links. All also turns line breaks (soft and hard) into a space; spaces only preserves line breaks and their surrounding whitespace while normalizing other whitespace on each line. Inline code inside link text and image alt text are never changed."
+msgstr "リンクテキスト (参照リンクを含む) の内部にある余分な空白をまとめ、先頭と末尾の空白を取り除きます。「すべて」では改行 (ソフト改行とハード改行) も空白 1 つに置き換えます。「空白のみ」では改行とその前後の空白は維持し、各行のそれ以外の空白を整えます。リンクテキスト内のインラインコードと画像の代替テキストは変更しません。"
+
+msgid "Semantic (keep tight/loose as authored, fix mixed spacing)"
+msgstr "セマンティック (詰める/空けるは記述どおり、混在した間隔は統一)"
+
+msgid "Preserve as written"
+msgstr "記述どおり維持"
+
+msgid "Tight (no blank lines between items)"
+msgstr "詰める (項目間に空行を入れない)"
+
+msgid "Loose (blank line between items)"
+msgstr "空ける (項目間に空行を入れる)"
+
+msgid "List spacing"
+msgstr "リストの間隔"
+
+msgid "Semantic keeps each list tight or loose as authored and only makes mixed spacing consistent, so rendering never changes. This setting also controls spacing between blocks inside list items; the individual block-spacing settings only affect root-level blocks. Note: Tightening is skipped for a whole list when any item holds multi-block content (e.g. a second paragraph)"
+msgstr "「セマンティック」は、各リストを詰める/空けるのどちらで書かれているかを保ち、混在した間隔だけを統一するため、表示結果は変わりません。この設定はリスト項目内のブロック間の間隔も制御します。個別のブロック間隔の設定はルート階層のブロックにだけ作用します。注意: いずれかの項目が複数ブロックの内容 (2 つ目の段落など) を持つ場合、そのリスト全体で詰める処理はスキップされます。"
+
+msgid "Tabs"
+msgstr "タブ"
+
+msgid "2 spaces"
+msgstr "スペース 2 個"
+
+msgid "4 spaces"
+msgstr "スペース 4 個"
+
+msgid "List indentation"
+msgstr "リストのインデント"
+
+msgid "Preferred indentation before nested list markers. It may be widened to preserve CommonMark nesting; for example, 2 spaces becomes 3 beneath `1.` and 4 beneath `10.`."
+msgstr "入れ子のリストマーカーの前に入れるインデントの好みです。CommonMark の入れ子関係を保つために広げることがあります。たとえば、スペース 2 個は `1.` の下では 3 個に、`10.` の下では 4 個になります。"
+
+msgid "Preserve (leave tables unchanged)"
+msgstr "維持 (表を変更しない)"
+
+msgid "Compact (one space of cell padding)"
+msgstr "コンパクト (セルの余白はスペース 1 個)"
+
+msgid "Aligned (pad cells so pipes line up)"
+msgstr "整列 (縦棒がそろうようにセルを埋める)"
+
+msgid "Table style"
+msgstr "表のスタイル"
+
+msgid "How to lay out table cells and delimiter rows."
+msgstr "表のセルと区切り行のレイアウト方法です。"
+
+msgid "Ensure blank lines around headings"
+msgstr "見出しの前後に空行を入れる"
+
+msgid "Add one blank line before and after root-level headings when neighboring content exists."
+msgstr "ルート階層の見出しの前後に隣接する内容がある場合、空行を 1 行入れます。"
+
+msgid "Normalize heading marker spacing"
+msgstr "見出しマーカーの空白を整える"
+
+msgid "Use one space between ATX heading markers and heading text, including optional closing markers."
+msgstr "ATX 見出しのマーカーと見出しテキストの間 (省略可能な閉じマーカーを含む) を空白 1 つにします。"
+
+msgid "Remove heading indentation"
+msgstr "見出しのインデントを取り除く"
+
+msgid "Move root-level ATX headings to the start of the line. Indented code and headings inside lists or blockquotes are unchanged."
+msgstr "ルート階層の ATX 見出しを行頭に移動します。インデントされたコードや、リスト・引用内の見出しは変更しません。"
+
+msgid "Ensure blank lines around paragraphs"
+msgstr "段落の前後に空行を入れる"
+
+msgid "Add one blank line before and after root-level paragraphs when neighboring content exists."
+msgstr "ルート階層の段落の前後に隣接する内容がある場合、空行を 1 行入れます。"
+
+msgid "Ensure blank lines around code blocks"
+msgstr "コードブロックの前後に空行を入れる"
+
+msgid "Add one blank line before and after root-level code blocks when neighboring content exists."
+msgstr "ルート階層のコードブロックの前後に隣接する内容がある場合、空行を 1 行入れます。"
+
+msgid "Set default language on unlabeled code blocks"
+msgstr "言語指定のないコードブロックに既定の言語を設定する"
+
+msgid "Add the configured language to fenced code blocks that do not specify one. Indented code blocks are left unchanged."
+msgstr "言語を指定していないフェンス付きコードブロックに、設定した言語を追加します。インデントによるコードブロックは変更しません。"
+
+msgid "Default code block language"
+msgstr "コードブロックの既定の言語"
+
+msgid "Language identifier to add when the default code block language rule is enabled, for example text, javascript, or bash."
+msgstr "既定のコードブロック言語のルールが有効なときに追加する言語の識別子です。例: text、javascript、bash。"
+
+msgid "Ensure blank lines around math blocks"
+msgstr "数式ブロックの前後に空行を入れる"
+
+msgid "Add one blank line before and after root-level math blocks when neighboring content exists."
+msgstr "ルート階層の数式ブロックの前後に隣接する内容がある場合、空行を 1 行入れます。"
+
+msgid "Ensure blank lines around tables"
+msgstr "表の前後に空行を入れる"
+
+msgid "Add one blank line before and after root-level tables when neighboring content exists."
+msgstr "ルート階層の表の前後に隣接する内容がある場合、空行を 1 行入れます。"
+
+msgid "Ensure blank lines around blockquotes"
+msgstr "引用の前後に空行を入れる"
+
+msgid "Add one blank line before and after root-level blockquotes when neighboring content exists."
+msgstr "ルート階層の引用の前後に隣接する内容がある場合、空行を 1 行入れます。"
+
+msgid "Normalize blockquote marker spacing"
+msgstr "引用マーカーの空白を整える"
+
+msgid "Use one space between blockquote `>` markers and quoted content, and between markers in nested quotes (`>>` becomes `> >`). Content requiring exact indentation (e.g. code inside the quote) and lists inside blockquotes are left unchanged."
+msgstr "引用の `>` マーカーと引用内容の間、および入れ子の引用のマーカー同士の間を空白 1 つにします (`>>` は `> >` になります)。正確なインデントが必要な内容 (引用内のコードなど) と引用内のリストは変更しません。"
+
+msgid "Ensure blank lines around lists"
+msgstr "リストの前後に空行を入れる"
+
+msgid "Add one blank line before and after root-level lists when neighboring content exists."
+msgstr "ルート階層のリストの前後に隣接する内容がある場合、空行を 1 行入れます。"
+
+msgid "Ensure blank line after front matter"
+msgstr "フロントマターの後に空行を入れる"
+
+msgid "Add one blank line between YAML front matter and following content."
+msgstr "YAML フロントマターと後続の内容の間に空行を 1 行入れます。"
+
+msgid "Normalize heading level increments"
+msgstr "見出しレベルの増え方を整える"
+
+msgid "Lower skipped heading levels so headings increase by at most one level at a time."
+msgstr "飛ばされた見出しレベルを下げ、見出しが一度に 1 レベルずつしか深くならないようにします。"
+
+msgid "None (no minimum heading level)"
+msgstr "なし (最小の見出しレベルを設けない)"
+
+msgid "H2 (start the note at level 2)"
+msgstr "H2 (ノートをレベル 2 から始める)"
+
+msgid "First heading (start at the first heading’s own level)"
+msgstr "最初の見出し (最初の見出しのレベルから始める)"
+
+msgid "Minimum heading level"
+msgstr "最小の見出しレベル"
+
+msgid "Shallowest heading level the note may use, applied by the heading level increment rule. H2 moves every heading by the same amount so the first one becomes level 2, keeping the note’s relative hierarchy. First heading keeps the first heading as written and raises any later heading that goes above it. Setext (underlined) headings are left as written."
+msgstr "ノートで使える最も浅い見出しレベルです。見出しレベルの増え方を整えるルールによって適用されます。「H2」はすべての見出しを同じだけずらして最初の見出しをレベル 2 にし、ノート内の相対的な階層を保ちます。「最初の見出し」は最初の見出しを記述どおりに保ち、それより浅い後続の見出しを深くします。Setext (下線付き) 見出しは記述どおりに残します。"
+
+msgid "Collapse consecutive blank lines"
+msgstr "連続する空行をまとめる"
+
+msgid "Reduce runs of blank lines to a single blank line (outside code blocks)."
+msgstr "連続する空行を 1 行にまとめます (コードブロックの外側のみ)。"
+
+msgid "Trim trailing whitespace"
+msgstr "行末の空白を取り除く"
+
+msgid "Remove trailing spaces and tabs outside protected content, preserving two-space hard line breaks."
+msgstr "保護された内容の外側にある行末のスペースとタブを取り除きます。2 つのスペースによるハード改行は維持します。"
+
+msgid "Remove leading blank lines"
+msgstr "先頭の空行を取り除く"
+
+msgid "Start the note with its first content or front matter, without blank lines before it."
+msgstr "ノートの前に空行を置かず、最初の内容またはフロントマターから始まるようにします。"
+
+msgid "Ensure trailing newline"
+msgstr "末尾に改行を入れる"
+
+msgid "End the note with exactly one newline."
+msgstr "ノートの末尾をちょうど 1 つの改行で終わらせます。"
+
+msgid "Preview changes before applying"
+msgstr "適用前に変更をプレビューする"
+
+msgid "Show the formatting changes as a diff, with buttons to apply or cancel them."
+msgstr "整形による変更を差分で表示し、適用またはキャンセルのボタンを出します。"
+
+msgid "Display toast messages"
+msgstr "トーストメッセージを表示する"
+
+msgid "Show a toast after formatting with the number of characters added and removed."
+msgstr "整形後に、追加・削除した文字数をトーストで表示します。"

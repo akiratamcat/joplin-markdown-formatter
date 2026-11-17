@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **Unofficial i18n test build.** This fork ([akiratamcat/joplin-markdown-formatter](https://github.com/akiratamcat/joplin-markdown-formatter)) adds UI translations based on gettext PO files (`src/locales/`). It uses its own plugin ID (`com.akiratamcat.joplin-markdown-formatter-i18n`) and is not affiliated with the original plugin by [bwat47](https://github.com/bwat47/joplin-markdown-formatter). Disable the original plugin while testing this build, because both register the same command and shortcut.
+>
+> **非公式の UI 翻訳テスト版です。** この fork は gettext の PO ファイル（`src/locales/`）による UI 翻訳を追加したものです。独自のプラグイン ID を使っており、原作者 [bwat47](https://github.com/bwat47/joplin-markdown-formatter) 版とは関係ありません。両方が同じコマンドとショートカットを登録するため、テスト中は原作者版を無効にしてください。
+
 > [!NOTE]
 > This plugin was created entirely with AI tools.
 
@@ -132,3 +137,11 @@ Before releasing, install the `.jpl` in Joplin on desktop and mobile. Check the 
 ## License
 
 MIT
+
+## Translations
+
+The UI follows Joplin's language setting (Joplin restarts after a language change). Catalogs live in `src/locales/<locale>.po`; English is the source language.
+
+- Supported: Japanese (`ja`), Korean (`ko`), Chinese Simplified (`zh_CN`), Chinese Traditional (`zh_TW`), German (`de`), Spanish (`es`), French (`fr`), Italian (`it`), Portuguese Brazil (`pt_BR`), Russian (`ru`).
+- After adding or changing a UI string wrapped in `_()`, run `npm run i18n:extract` to update `src/locales/messages.pot`, then update every `.po` file. `npm test` fails while a catalog is missing a message.
+- To add a language, create `src/locales/<locale>.po` from `messages.pot` and register it in `CATALOG_SOURCES` in `src/i18n.ts`.

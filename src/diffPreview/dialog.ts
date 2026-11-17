@@ -6,6 +6,7 @@
 import joplin from 'api';
 import type { ViewHandle } from 'api/types';
 import { computeCharacterChangeStats, formatCharacterChangeStats } from '../changeStats';
+import { _ } from '../i18n';
 import logger from '../logger';
 import { computeLineDiff } from './lineDiff';
 import { renderDiffPreviewHtml } from './render';
@@ -25,8 +26,8 @@ export async function registerDiffPreviewDialog(): Promise<void> {
         const handle = await joplin.views.dialogs.create(DIALOG_ID);
         await joplin.views.dialogs.addScript(handle, './diffPreview/styles.css');
         await joplin.views.dialogs.setButtons(handle, [
-            { id: APPLY_BUTTON_ID, title: 'Apply' },
-            { id: 'cancel', title: 'Cancel' },
+            { id: APPLY_BUTTON_ID, title: _('Apply') },
+            { id: 'cancel', title: _('Cancel') },
         ]);
         // A diff needs room; fit-to-content would size the dialog to its first lines.
         await joplin.views.dialogs.setFitToContent(handle, false);

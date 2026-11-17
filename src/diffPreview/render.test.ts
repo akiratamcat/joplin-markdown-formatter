@@ -4,7 +4,7 @@ import { renderDiffPreviewHtml } from './render';
 function render(oldText: string, newText: string, skippedRules: string[] = []): string {
     return renderDiffPreviewHtml({
         hunks: computeLineDiff(oldText, newText),
-        summary: '1 character added, 1 character removed',
+        summary: 'Characters added: 1, removed: 1',
         skippedRules,
     });
 }
@@ -13,7 +13,7 @@ describe('renderDiffPreviewHtml', () => {
     test('renders the summary and a hunk header', () => {
         const html = render('* item\n', '- item\n');
 
-        expect(html).toContain('1 character added, 1 character removed');
+        expect(html).toContain('Characters added: 1, removed: 1');
         expect(html).toContain('@@ -1,1 +1,1 @@');
     });
 

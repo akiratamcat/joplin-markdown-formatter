@@ -93,6 +93,10 @@ Joplin setting keys match the properties of `FormatterOptions`. [`loadFormatterO
 
 Rule-specific behavior and defaults belong with the option types, settings definitions, rule implementations, and user-facing documentation. The architecture depends only on every rule exposing `name`, `isEnabled`, and `apply`.
 
+## UI translation
+
+[`src/i18n.ts`](../src/i18n.ts) provides gettext-style translation with `_()`. Message IDs are the English UI strings, and catalogs are `src/locales/<locale>.po`, bundled as text through the esbuild `text` loader (`mainBuildOptions.loader` in [`plugin.config.json`](../plugin.config.json)) so no file access is needed on mobile. `onStart` reads Joplin's `locale` setting once, before registering any UI, and picks a catalog by exact locale, regional fallback, then language; anything else falls back to English. Messages avoid plural forms so each language needs one translation. [`scripts/extractMessages.mjs`](../scripts/extractMessages.mjs) regenerates `messages.pot`, and tests fail when the template is stale or a catalog misses a message or placeholder.
+
 ## Testing and packaging
 
 The formatter and diff engine are pure modules and are tested without Joplin. Formatter fixtures under [`src/formatter/fixtures/`](../src/formatter/fixtures/) assert both expected output and idempotency; focused unit tests cover edit validation, structural verification, individual rules, editor integration, and diff rendering.

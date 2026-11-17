@@ -1,0 +1,297 @@
+# Chinese (Simplified) translation of Joplin Markdown Formatter.
+# Machine-generated for a personal test build; not reviewed by a native speaker.
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Characters added: {added}, removed: {removed}"
+msgstr "新增字符: {added}，删除字符: {removed}"
+
+msgid "Apply"
+msgstr "应用"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Review formatting changes"
+msgstr "检查格式化更改"
+
+msgid "Skipped by the structural safety check: {rules}"
+msgstr "因结构安全检查而跳过的规则: {rules}"
+
+msgid "No changes."
+msgstr "没有更改。"
+
+msgid "No newline at end of file"
+msgstr "文件末尾没有换行符"
+
+msgid "No formatting changes needed."
+msgstr "无需格式化更改。"
+
+msgid "Markdown formatted. {stats}."
+msgstr "Markdown 已格式化。{stats}。"
+
+msgid "Format Markdown"
+msgstr "格式化 Markdown"
+
+msgid "Formatting applied by the \"Format Markdown\" command."
+msgstr "“格式化 Markdown”命令所应用的格式设置。"
+
+msgid "- (dash)"
+msgstr "- (短横线)"
+
+msgid "* (asterisk)"
+msgstr "* (星号)"
+
+msgid "Preserve (leave markers unchanged)"
+msgstr "保留 (不更改标记)"
+
+msgid "Unordered list marker"
+msgstr "无序列表标记"
+
+msgid "Note: CommonMark treats adjacent lists with different bullets as separate lists; normalizing their markers merges them."
+msgstr "注意: CommonMark 将使用不同项目符号的相邻列表视为不同的列表；统一标记会将它们合并为一个列表。"
+
+msgid "Normalize ordered list numbering"
+msgstr "规范有序列表编号"
+
+msgid "Renumber ordered lists sequentially, keeping the first item’s number."
+msgstr "按顺序重新编号有序列表，保留第一项的编号。"
+
+msgid "Horizontal rule marker"
+msgstr "水平分隔线标记"
+
+msgid "Emphasis (italic) marker"
+msgstr "强调 (斜体) 标记"
+
+msgid "Bold marker"
+msgstr "粗体标记"
+
+msgid "Preserve (leave quotes unchanged)"
+msgstr "保留 (不更改引号)"
+
+msgid "Straight (\"quote\")"
+msgstr "直引号 (\"quote\")"
+
+msgid "Smart (“quote”)"
+msgstr "弯引号 (“quote”)"
+
+msgid "Double quote style"
+msgstr "双引号样式"
+
+msgid "Convert double quotes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "转换正文中的双引号。代码、数学公式、HTML、前置元数据和链接标题永远不会被更改。"
+
+msgid "Straight ('quote', don't)"
+msgstr "直引号 ('quote', don't)"
+
+msgid "Smart (‘quote’, don’t)"
+msgstr "弯引号 (‘quote’, don’t)"
+
+msgid "Single quote style"
+msgstr "单引号样式"
+
+msgid "Convert single quotes and apostrophes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "转换正文中的单引号和撇号。代码、数学公式、HTML、前置元数据和链接标题永远不会被更改。"
+
+msgid "All (also collapse line breaks, keeping labels on one line)"
+msgstr "全部 (同时合并换行，使标签保持在一行)"
+
+msgid "Spaces only (preserve line breaks inside labels)"
+msgstr "仅空格 (保留标签内的换行)"
+
+msgid "Preserve (leave link text unchanged)"
+msgstr "保留 (不更改链接文本)"
+
+msgid "Link text spacing"
+msgstr "链接文本空白"
+
+msgid "Collapse excess internal whitespace and trim leading/trailing spaces inside link text, including reference links. All also turns line breaks (soft and hard) into a space; spaces only preserves line breaks and their surrounding whitespace while normalizing other whitespace on each line. Inline code inside link text and image alt text are never changed."
+msgstr "合并链接文本 (包括引用链接) 内部多余的空白，并去除首尾空格。“全部”还会将换行 (软换行和硬换行) 替换为一个空格；“仅空格”保留换行及其周围的空白，只规范每行中的其他空白。链接文本中的行内代码和图片替代文本永远不会被更改。"
+
+msgid "Semantic (keep tight/loose as authored, fix mixed spacing)"
+msgstr "语义 (保持编写时的紧凑/宽松，修正混合间距)"
+
+msgid "Preserve as written"
+msgstr "保持原样"
+
+msgid "Tight (no blank lines between items)"
+msgstr "紧凑 (项目之间无空行)"
+
+msgid "Loose (blank line between items)"
+msgstr "宽松 (项目之间有空行)"
+
+msgid "List spacing"
+msgstr "列表间距"
+
+msgid "Semantic keeps each list tight or loose as authored and only makes mixed spacing consistent, so rendering never changes. This setting also controls spacing between blocks inside list items; the individual block-spacing settings only affect root-level blocks. Note: Tightening is skipped for a whole list when any item holds multi-block content (e.g. a second paragraph)"
+msgstr "“语义”会保持每个列表编写时的紧凑或宽松状态，只统一混合的间距，因此渲染结果不会改变。此设置还控制列表项内部各块之间的间距；单独的块间距设置只影响根级块。注意: 当任何项目包含多块内容 (例如第二个段落) 时，将跳过整个列表的紧凑化处理。"
+
+msgid "Tabs"
+msgstr "制表符"
+
+msgid "2 spaces"
+msgstr "2 个空格"
+
+msgid "4 spaces"
+msgstr "4 个空格"
+
+msgid "List indentation"
+msgstr "列表缩进"
+
+msgid "Preferred indentation before nested list markers. It may be widened to preserve CommonMark nesting; for example, 2 spaces becomes 3 beneath `1.` and 4 beneath `10.`."
+msgstr "嵌套列表标记前的首选缩进。为保持 CommonMark 的嵌套关系，缩进可能会被加宽；例如，2 个空格在 `1.` 下变为 3 个，在 `10.` 下变为 4 个。"
+
+msgid "Preserve (leave tables unchanged)"
+msgstr "保留 (不更改表格)"
+
+msgid "Compact (one space of cell padding)"
+msgstr "紧凑 (单元格内边距为一个空格)"
+
+msgid "Aligned (pad cells so pipes line up)"
+msgstr "对齐 (填充单元格使竖线对齐)"
+
+msgid "Table style"
+msgstr "表格样式"
+
+msgid "How to lay out table cells and delimiter rows."
+msgstr "表格单元格和分隔行的布局方式。"
+
+msgid "Ensure blank lines around headings"
+msgstr "确保标题前后有空行"
+
+msgid "Add one blank line before and after root-level headings when neighboring content exists."
+msgstr "当根级标题前后有相邻内容时，在其前后各添加一个空行。"
+
+msgid "Normalize heading marker spacing"
+msgstr "规范标题标记间距"
+
+msgid "Use one space between ATX heading markers and heading text, including optional closing markers."
+msgstr "在 ATX 标题标记与标题文本之间 (包括可选的闭合标记) 使用一个空格。"
+
+msgid "Remove heading indentation"
+msgstr "移除标题缩进"
+
+msgid "Move root-level ATX headings to the start of the line. Indented code and headings inside lists or blockquotes are unchanged."
+msgstr "将根级 ATX 标题移到行首。缩进代码以及列表或引用块中的标题不会被更改。"
+
+msgid "Ensure blank lines around paragraphs"
+msgstr "确保段落前后有空行"
+
+msgid "Add one blank line before and after root-level paragraphs when neighboring content exists."
+msgstr "当根级段落前后有相邻内容时，在其前后各添加一个空行。"
+
+msgid "Ensure blank lines around code blocks"
+msgstr "确保代码块前后有空行"
+
+msgid "Add one blank line before and after root-level code blocks when neighboring content exists."
+msgstr "当根级代码块前后有相邻内容时，在其前后各添加一个空行。"
+
+msgid "Set default language on unlabeled code blocks"
+msgstr "为未标注语言的代码块设置默认语言"
+
+msgid "Add the configured language to fenced code blocks that do not specify one. Indented code blocks are left unchanged."
+msgstr "为未指定语言的围栏代码块添加所配置的语言。缩进代码块不会被更改。"
+
+msgid "Default code block language"
+msgstr "默认代码块语言"
+
+msgid "Language identifier to add when the default code block language rule is enabled, for example text, javascript, or bash."
+msgstr "启用默认代码块语言规则时要添加的语言标识符，例如 text、javascript 或 bash。"
+
+msgid "Ensure blank lines around math blocks"
+msgstr "确保数学公式块前后有空行"
+
+msgid "Add one blank line before and after root-level math blocks when neighboring content exists."
+msgstr "当根级数学公式块前后有相邻内容时，在其前后各添加一个空行。"
+
+msgid "Ensure blank lines around tables"
+msgstr "确保表格前后有空行"
+
+msgid "Add one blank line before and after root-level tables when neighboring content exists."
+msgstr "当根级表格前后有相邻内容时，在其前后各添加一个空行。"
+
+msgid "Ensure blank lines around blockquotes"
+msgstr "确保引用块前后有空行"
+
+msgid "Add one blank line before and after root-level blockquotes when neighboring content exists."
+msgstr "当根级引用块前后有相邻内容时，在其前后各添加一个空行。"
+
+msgid "Normalize blockquote marker spacing"
+msgstr "规范引用标记间距"
+
+msgid "Use one space between blockquote `>` markers and quoted content, and between markers in nested quotes (`>>` becomes `> >`). Content requiring exact indentation (e.g. code inside the quote) and lists inside blockquotes are left unchanged."
+msgstr "在引用块的 `>` 标记与引用内容之间，以及嵌套引用的标记之间使用一个空格 (`>>` 变为 `> >`)。需要精确缩进的内容 (例如引用中的代码) 和引用块中的列表不会被更改。"
+
+msgid "Ensure blank lines around lists"
+msgstr "确保列表前后有空行"
+
+msgid "Add one blank line before and after root-level lists when neighboring content exists."
+msgstr "当根级列表前后有相邻内容时，在其前后各添加一个空行。"
+
+msgid "Ensure blank line after front matter"
+msgstr "确保前置元数据后有空行"
+
+msgid "Add one blank line between YAML front matter and following content."
+msgstr "在 YAML 前置元数据与后续内容之间添加一个空行。"
+
+msgid "Normalize heading level increments"
+msgstr "规范标题层级递增"
+
+msgid "Lower skipped heading levels so headings increase by at most one level at a time."
+msgstr "降低跳级的标题层级，使标题每次最多加深一级。"
+
+msgid "None (no minimum heading level)"
+msgstr "无 (不设最小标题层级)"
+
+msgid "H2 (start the note at level 2)"
+msgstr "H2 (笔记从 2 级开始)"
+
+msgid "First heading (start at the first heading’s own level)"
+msgstr "第一个标题 (从第一个标题自身的层级开始)"
+
+msgid "Minimum heading level"
+msgstr "最小标题层级"
+
+msgid "Shallowest heading level the note may use, applied by the heading level increment rule. H2 moves every heading by the same amount so the first one becomes level 2, keeping the note’s relative hierarchy. First heading keeps the first heading as written and raises any later heading that goes above it. Setext (underlined) headings are left as written."
+msgstr "笔记可使用的最浅标题层级，由标题层级递增规则应用。“H2”会将所有标题移动相同的量，使第一个标题变为 2 级，并保持笔记的相对层级结构。“第一个标题”保持第一个标题不变，并加深之后任何比它更浅的标题。Setext (下划线式) 标题保持原样。"
+
+msgid "Collapse consecutive blank lines"
+msgstr "合并连续空行"
+
+msgid "Reduce runs of blank lines to a single blank line (outside code blocks)."
+msgstr "将连续的空行合并为一个空行 (代码块之外)。"
+
+msgid "Trim trailing whitespace"
+msgstr "去除行尾空白"
+
+msgid "Remove trailing spaces and tabs outside protected content, preserving two-space hard line breaks."
+msgstr "去除受保护内容之外的行尾空格和制表符，保留两个空格的硬换行。"
+
+msgid "Remove leading blank lines"
+msgstr "移除开头空行"
+
+msgid "Start the note with its first content or front matter, without blank lines before it."
+msgstr "使笔记从第一个内容或前置元数据开始，前面没有空行。"
+
+msgid "Ensure trailing newline"
+msgstr "确保末尾换行"
+
+msgid "End the note with exactly one newline."
+msgstr "使笔记以恰好一个换行符结尾。"
+
+msgid "Preview changes before applying"
+msgstr "应用前预览更改"
+
+msgid "Show the formatting changes as a diff, with buttons to apply or cancel them."
+msgstr "以差异形式显示格式化更改，并提供应用或取消按钮。"
+
+msgid "Display toast messages"
+msgstr "显示提示消息"
+
+msgid "Show a toast after formatting with the number of characters added and removed."
+msgstr "格式化后显示提示，包含新增和删除的字符数。"

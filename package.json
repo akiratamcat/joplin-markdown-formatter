@@ -1,5 +1,5 @@
 {
-    "name": "joplin-plugin-markdown-formatter",
+    "name": "joplin-plugin-markdown-formatter-i18n",
     "version": "1.6.12",
     "scripts": {
         "dist": "npm run typecheck && joplin-plugin-scripts build",
@@ -14,7 +14,8 @@
         "format": "oxfmt --write",
         "format:check": "oxfmt --check",
         "test": "vitest run",
-        "test:watch": "vitest"
+        "test:watch": "vitest",
+        "i18n:extract": "node scripts/extractMessages.mjs"
     },
     "license": "MIT",
     "engines": {

@@ -1,0 +1,297 @@
+# Korean translation of Joplin Markdown Formatter.
+# Machine-generated for a personal test build; not reviewed by a native speaker.
+msgid ""
+msgstr ""
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Characters added: {added}, removed: {removed}"
+msgstr "추가된 문자: {added}, 삭제된 문자: {removed}"
+
+msgid "Apply"
+msgstr "적용"
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Review formatting changes"
+msgstr "서식 변경 사항 검토"
+
+msgid "Skipped by the structural safety check: {rules}"
+msgstr "구조 안전 검사로 건너뛴 규칙: {rules}"
+
+msgid "No changes."
+msgstr "변경 사항이 없습니다."
+
+msgid "No newline at end of file"
+msgstr "파일 끝에 줄바꿈이 없습니다"
+
+msgid "No formatting changes needed."
+msgstr "서식을 변경할 필요가 없습니다."
+
+msgid "Markdown formatted. {stats}."
+msgstr "Markdown 서식을 정리했습니다. {stats}."
+
+msgid "Format Markdown"
+msgstr "Markdown 서식 정리"
+
+msgid "Formatting applied by the \"Format Markdown\" command."
+msgstr "\"Markdown 서식 정리\" 명령으로 적용되는 서식 설정입니다."
+
+msgid "- (dash)"
+msgstr "- (대시)"
+
+msgid "* (asterisk)"
+msgstr "* (별표)"
+
+msgid "Preserve (leave markers unchanged)"
+msgstr "유지 (마커를 변경하지 않음)"
+
+msgid "Unordered list marker"
+msgstr "순서 없는 목록 마커"
+
+msgid "Note: CommonMark treats adjacent lists with different bullets as separate lists; normalizing their markers merges them."
+msgstr "참고: CommonMark는 글머리 기호가 다른 인접 목록을 별개의 목록으로 취급합니다. 마커를 통일하면 이 목록들이 하나로 합쳐집니다."
+
+msgid "Normalize ordered list numbering"
+msgstr "순서 있는 목록 번호 정리"
+
+msgid "Renumber ordered lists sequentially, keeping the first item’s number."
+msgstr "첫 번째 항목의 번호를 유지하면서 순서 있는 목록의 번호를 차례대로 다시 매깁니다."
+
+msgid "Horizontal rule marker"
+msgstr "수평선 마커"
+
+msgid "Emphasis (italic) marker"
+msgstr "강조 (기울임꼴) 마커"
+
+msgid "Bold marker"
+msgstr "굵게 마커"
+
+msgid "Preserve (leave quotes unchanged)"
+msgstr "유지 (따옴표를 변경하지 않음)"
+
+msgid "Straight (\"quote\")"
+msgstr "곧은 따옴표 (\"quote\")"
+
+msgid "Smart (“quote”)"
+msgstr "둥근 따옴표 (“quote”)"
+
+msgid "Double quote style"
+msgstr "큰따옴표 스타일"
+
+msgid "Convert double quotes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "본문의 큰따옴표를 변환합니다. 코드, 수식, HTML, 머리말(front matter), 링크 제목은 변경하지 않습니다."
+
+msgid "Straight ('quote', don't)"
+msgstr "곧은 따옴표 ('quote', don't)"
+
+msgid "Smart (‘quote’, don’t)"
+msgstr "둥근 따옴표 (‘quote’, don’t)"
+
+msgid "Single quote style"
+msgstr "작은따옴표 스타일"
+
+msgid "Convert single quotes and apostrophes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "본문의 작은따옴표와 아포스트로피를 변환합니다. 코드, 수식, HTML, 머리말(front matter), 링크 제목은 변경하지 않습니다."
+
+msgid "All (also collapse line breaks, keeping labels on one line)"
+msgstr "모두 (줄바꿈도 합쳐 레이블을 한 줄로 유지)"
+
+msgid "Spaces only (preserve line breaks inside labels)"
+msgstr "공백만 (레이블 안의 줄바꿈 유지)"
+
+msgid "Preserve (leave link text unchanged)"
+msgstr "유지 (링크 텍스트를 변경하지 않음)"
+
+msgid "Link text spacing"
+msgstr "링크 텍스트 공백"
+
+msgid "Collapse excess internal whitespace and trim leading/trailing spaces inside link text, including reference links. All also turns line breaks (soft and hard) into a space; spaces only preserves line breaks and their surrounding whitespace while normalizing other whitespace on each line. Inline code inside link text and image alt text are never changed."
+msgstr "링크 텍스트(참조 링크 포함) 안의 불필요한 공백을 합치고 앞뒤 공백을 제거합니다. \"모두\"는 줄바꿈(소프트 및 하드)도 공백 하나로 바꿉니다. \"공백만\"은 줄바꿈과 그 주변 공백을 유지하고 각 줄의 나머지 공백만 정리합니다. 링크 텍스트 안의 인라인 코드와 이미지 대체 텍스트는 변경하지 않습니다."
+
+msgid "Semantic (keep tight/loose as authored, fix mixed spacing)"
+msgstr "의미 기반 (작성된 좁은/넓은 간격 유지, 혼합된 간격 수정)"
+
+msgid "Preserve as written"
+msgstr "작성된 그대로 유지"
+
+msgid "Tight (no blank lines between items)"
+msgstr "좁게 (항목 사이에 빈 줄 없음)"
+
+msgid "Loose (blank line between items)"
+msgstr "넓게 (항목 사이에 빈 줄)"
+
+msgid "List spacing"
+msgstr "목록 간격"
+
+msgid "Semantic keeps each list tight or loose as authored and only makes mixed spacing consistent, so rendering never changes. This setting also controls spacing between blocks inside list items; the individual block-spacing settings only affect root-level blocks. Note: Tightening is skipped for a whole list when any item holds multi-block content (e.g. a second paragraph)"
+msgstr "\"의미 기반\"은 각 목록이 작성된 좁은 간격 또는 넓은 간격을 유지하고 혼합된 간격만 통일하므로 렌더링 결과가 바뀌지 않습니다. 이 설정은 목록 항목 내부의 블록 사이 간격도 제어하며, 개별 블록 간격 설정은 최상위 블록에만 적용됩니다. 참고: 어떤 항목이든 여러 블록으로 된 내용(예: 두 번째 단락)이 있으면 해당 목록 전체에서 좁히기를 건너뜁니다."
+
+msgid "Tabs"
+msgstr "탭"
+
+msgid "2 spaces"
+msgstr "공백 2개"
+
+msgid "4 spaces"
+msgstr "공백 4개"
+
+msgid "List indentation"
+msgstr "목록 들여쓰기"
+
+msgid "Preferred indentation before nested list markers. It may be widened to preserve CommonMark nesting; for example, 2 spaces becomes 3 beneath `1.` and 4 beneath `10.`."
+msgstr "중첩 목록 마커 앞에 사용할 들여쓰기입니다. CommonMark 중첩을 유지하기 위해 넓어질 수 있습니다. 예를 들어 공백 2개는 `1.` 아래에서 3개, `10.` 아래에서 4개가 됩니다."
+
+msgid "Preserve (leave tables unchanged)"
+msgstr "유지 (표를 변경하지 않음)"
+
+msgid "Compact (one space of cell padding)"
+msgstr "간결하게 (셀 여백은 공백 하나)"
+
+msgid "Aligned (pad cells so pipes line up)"
+msgstr "정렬 (세로선이 맞도록 셀을 채움)"
+
+msgid "Table style"
+msgstr "표 스타일"
+
+msgid "How to lay out table cells and delimiter rows."
+msgstr "표 셀과 구분 행을 배치하는 방식입니다."
+
+msgid "Ensure blank lines around headings"
+msgstr "제목 앞뒤에 빈 줄 넣기"
+
+msgid "Add one blank line before and after root-level headings when neighboring content exists."
+msgstr "최상위 제목 앞뒤에 인접한 내용이 있으면 빈 줄을 하나씩 넣습니다."
+
+msgid "Normalize heading marker spacing"
+msgstr "제목 마커 공백 정리"
+
+msgid "Use one space between ATX heading markers and heading text, including optional closing markers."
+msgstr "ATX 제목 마커와 제목 텍스트 사이(선택적인 닫는 마커 포함)에 공백 하나를 사용합니다."
+
+msgid "Remove heading indentation"
+msgstr "제목 들여쓰기 제거"
+
+msgid "Move root-level ATX headings to the start of the line. Indented code and headings inside lists or blockquotes are unchanged."
+msgstr "최상위 ATX 제목을 줄의 시작으로 옮깁니다. 들여쓴 코드와 목록 또는 인용문 안의 제목은 변경하지 않습니다."
+
+msgid "Ensure blank lines around paragraphs"
+msgstr "단락 앞뒤에 빈 줄 넣기"
+
+msgid "Add one blank line before and after root-level paragraphs when neighboring content exists."
+msgstr "최상위 단락 앞뒤에 인접한 내용이 있으면 빈 줄을 하나씩 넣습니다."
+
+msgid "Ensure blank lines around code blocks"
+msgstr "코드 블록 앞뒤에 빈 줄 넣기"
+
+msgid "Add one blank line before and after root-level code blocks when neighboring content exists."
+msgstr "최상위 코드 블록 앞뒤에 인접한 내용이 있으면 빈 줄을 하나씩 넣습니다."
+
+msgid "Set default language on unlabeled code blocks"
+msgstr "언어가 없는 코드 블록에 기본 언어 지정"
+
+msgid "Add the configured language to fenced code blocks that do not specify one. Indented code blocks are left unchanged."
+msgstr "언어를 지정하지 않은 펜스 코드 블록에 설정한 언어를 추가합니다. 들여쓴 코드 블록은 변경하지 않습니다."
+
+msgid "Default code block language"
+msgstr "기본 코드 블록 언어"
+
+msgid "Language identifier to add when the default code block language rule is enabled, for example text, javascript, or bash."
+msgstr "기본 코드 블록 언어 규칙이 켜져 있을 때 추가할 언어 식별자입니다(예: text, javascript, bash)."
+
+msgid "Ensure blank lines around math blocks"
+msgstr "수식 블록 앞뒤에 빈 줄 넣기"
+
+msgid "Add one blank line before and after root-level math blocks when neighboring content exists."
+msgstr "최상위 수식 블록 앞뒤에 인접한 내용이 있으면 빈 줄을 하나씩 넣습니다."
+
+msgid "Ensure blank lines around tables"
+msgstr "표 앞뒤에 빈 줄 넣기"
+
+msgid "Add one blank line before and after root-level tables when neighboring content exists."
+msgstr "최상위 표 앞뒤에 인접한 내용이 있으면 빈 줄을 하나씩 넣습니다."
+
+msgid "Ensure blank lines around blockquotes"
+msgstr "인용문 앞뒤에 빈 줄 넣기"
+
+msgid "Add one blank line before and after root-level blockquotes when neighboring content exists."
+msgstr "최상위 인용문 앞뒤에 인접한 내용이 있으면 빈 줄을 하나씩 넣습니다."
+
+msgid "Normalize blockquote marker spacing"
+msgstr "인용문 마커 공백 정리"
+
+msgid "Use one space between blockquote `>` markers and quoted content, and between markers in nested quotes (`>>` becomes `> >`). Content requiring exact indentation (e.g. code inside the quote) and lists inside blockquotes are left unchanged."
+msgstr "인용문 `>` 마커와 인용 내용 사이, 그리고 중첩 인용문의 마커 사이에 공백 하나를 사용합니다(`>>`는 `> >`가 됩니다). 정확한 들여쓰기가 필요한 내용(예: 인용문 안의 코드)과 인용문 안의 목록은 변경하지 않습니다."
+
+msgid "Ensure blank lines around lists"
+msgstr "목록 앞뒤에 빈 줄 넣기"
+
+msgid "Add one blank line before and after root-level lists when neighboring content exists."
+msgstr "최상위 목록 앞뒤에 인접한 내용이 있으면 빈 줄을 하나씩 넣습니다."
+
+msgid "Ensure blank line after front matter"
+msgstr "머리말 뒤에 빈 줄 넣기"
+
+msgid "Add one blank line between YAML front matter and following content."
+msgstr "YAML 머리말(front matter)과 뒤따르는 내용 사이에 빈 줄을 하나 넣습니다."
+
+msgid "Normalize heading level increments"
+msgstr "제목 수준 증가 정리"
+
+msgid "Lower skipped heading levels so headings increase by at most one level at a time."
+msgstr "건너뛴 제목 수준을 낮추어 제목이 한 번에 최대 한 단계씩만 깊어지게 합니다."
+
+msgid "None (no minimum heading level)"
+msgstr "없음 (최소 제목 수준 없음)"
+
+msgid "H2 (start the note at level 2)"
+msgstr "H2 (노트를 수준 2에서 시작)"
+
+msgid "First heading (start at the first heading’s own level)"
+msgstr "첫 번째 제목 (첫 번째 제목의 수준에서 시작)"
+
+msgid "Minimum heading level"
+msgstr "최소 제목 수준"
+
+msgid "Shallowest heading level the note may use, applied by the heading level increment rule. H2 moves every heading by the same amount so the first one becomes level 2, keeping the note’s relative hierarchy. First heading keeps the first heading as written and raises any later heading that goes above it. Setext (underlined) headings are left as written."
+msgstr "노트에서 사용할 수 있는 가장 얕은 제목 수준으로, 제목 수준 증가 규칙에 의해 적용됩니다. \"H2\"는 모든 제목을 같은 만큼 이동해 첫 번째 제목을 수준 2로 만들고 노트의 상대적 계층을 유지합니다. \"첫 번째 제목\"은 첫 번째 제목을 작성된 그대로 두고 그보다 얕은 이후 제목을 깊게 합니다. Setext(밑줄) 제목은 작성된 그대로 둡니다."
+
+msgid "Collapse consecutive blank lines"
+msgstr "연속된 빈 줄 합치기"
+
+msgid "Reduce runs of blank lines to a single blank line (outside code blocks)."
+msgstr "연속된 빈 줄을 하나로 줄입니다(코드 블록 바깥)."
+
+msgid "Trim trailing whitespace"
+msgstr "줄 끝 공백 제거"
+
+msgid "Remove trailing spaces and tabs outside protected content, preserving two-space hard line breaks."
+msgstr "보호된 내용 바깥의 줄 끝 공백과 탭을 제거하며, 공백 두 개로 된 강제 줄바꿈은 유지합니다."
+
+msgid "Remove leading blank lines"
+msgstr "앞쪽 빈 줄 제거"
+
+msgid "Start the note with its first content or front matter, without blank lines before it."
+msgstr "노트가 빈 줄 없이 첫 내용 또는 머리말로 시작하게 합니다."
+
+msgid "Ensure trailing newline"
+msgstr "끝에 줄바꿈 넣기"
+
+msgid "End the note with exactly one newline."
+msgstr "노트가 정확히 하나의 줄바꿈으로 끝나게 합니다."
+
+msgid "Preview changes before applying"
+msgstr "적용 전에 변경 사항 미리 보기"
+
+msgid "Show the formatting changes as a diff, with buttons to apply or cancel them."
+msgstr "서식 변경 사항을 diff로 보여 주고 적용 또는 취소 버튼을 표시합니다."
+
+msgid "Display toast messages"
+msgstr "토스트 메시지 표시"
+
+msgid "Show a toast after formatting with the number of characters added and removed."
+msgstr "서식 정리 후 추가 및 삭제된 문자 수를 토스트로 표시합니다."

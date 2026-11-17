@@ -1,0 +1,297 @@
+# French translation of Joplin Markdown Formatter.
+# Machine-generated for a personal test build; not reviewed by a native speaker.
+msgid ""
+msgstr ""
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Characters added: {added}, removed: {removed}"
+msgstr "Caractères ajoutés : {added}, supprimés : {removed}"
+
+msgid "Apply"
+msgstr "Appliquer"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Review formatting changes"
+msgstr "Vérifier les modifications de mise en forme"
+
+msgid "Skipped by the structural safety check: {rules}"
+msgstr "Ignorées par la vérification de sécurité structurelle : {rules}"
+
+msgid "No changes."
+msgstr "Aucune modification."
+
+msgid "No newline at end of file"
+msgstr "Pas de saut de ligne en fin de fichier"
+
+msgid "No formatting changes needed."
+msgstr "Aucune modification de mise en forme nécessaire."
+
+msgid "Markdown formatted. {stats}."
+msgstr "Markdown mis en forme. {stats}."
+
+msgid "Format Markdown"
+msgstr "Mettre en forme le Markdown"
+
+msgid "Formatting applied by the \"Format Markdown\" command."
+msgstr "Mise en forme appliquée par la commande « Mettre en forme le Markdown »."
+
+msgid "- (dash)"
+msgstr "- (tiret)"
+
+msgid "* (asterisk)"
+msgstr "* (astérisque)"
+
+msgid "Preserve (leave markers unchanged)"
+msgstr "Conserver (ne pas modifier les marqueurs)"
+
+msgid "Unordered list marker"
+msgstr "Marqueur de liste non ordonnée"
+
+msgid "Note: CommonMark treats adjacent lists with different bullets as separate lists; normalizing their markers merges them."
+msgstr "Remarque : CommonMark traite les listes adjacentes utilisant des puces différentes comme des listes distinctes ; uniformiser leurs marqueurs les fusionne."
+
+msgid "Normalize ordered list numbering"
+msgstr "Normaliser la numérotation des listes ordonnées"
+
+msgid "Renumber ordered lists sequentially, keeping the first item’s number."
+msgstr "Renuméroter les listes ordonnées de façon séquentielle, en conservant le numéro du premier élément."
+
+msgid "Horizontal rule marker"
+msgstr "Marqueur de ligne horizontale"
+
+msgid "Emphasis (italic) marker"
+msgstr "Marqueur d’emphase (italique)"
+
+msgid "Bold marker"
+msgstr "Marqueur de gras"
+
+msgid "Preserve (leave quotes unchanged)"
+msgstr "Conserver (ne pas modifier les guillemets)"
+
+msgid "Straight (\"quote\")"
+msgstr "Droits (\"quote\")"
+
+msgid "Smart (“quote”)"
+msgstr "Typographiques (“quote”)"
+
+msgid "Double quote style"
+msgstr "Style des guillemets doubles"
+
+msgid "Convert double quotes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "Convertir les guillemets doubles dans le texte. Le code, les formules mathématiques, le HTML, le front matter et les titres de liens ne sont jamais modifiés."
+
+msgid "Straight ('quote', don't)"
+msgstr "Droits ('quote', don't)"
+
+msgid "Smart (‘quote’, don’t)"
+msgstr "Typographiques (‘quote’, don’t)"
+
+msgid "Single quote style"
+msgstr "Style des guillemets simples"
+
+msgid "Convert single quotes and apostrophes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "Convertir les guillemets simples et les apostrophes dans le texte. Le code, les formules mathématiques, le HTML, le front matter et les titres de liens ne sont jamais modifiés."
+
+msgid "All (also collapse line breaks, keeping labels on one line)"
+msgstr "Tout (fusionner aussi les sauts de ligne, libellés sur une seule ligne)"
+
+msgid "Spaces only (preserve line breaks inside labels)"
+msgstr "Espaces uniquement (conserver les sauts de ligne dans les libellés)"
+
+msgid "Preserve (leave link text unchanged)"
+msgstr "Conserver (ne pas modifier le texte des liens)"
+
+msgid "Link text spacing"
+msgstr "Espacement du texte des liens"
+
+msgid "Collapse excess internal whitespace and trim leading/trailing spaces inside link text, including reference links. All also turns line breaks (soft and hard) into a space; spaces only preserves line breaks and their surrounding whitespace while normalizing other whitespace on each line. Inline code inside link text and image alt text are never changed."
+msgstr "Réduire les espaces superflus et supprimer les espaces de début et de fin dans le texte des liens, y compris les liens de référence. « Tout » transforme aussi les sauts de ligne (simples et forcés) en une espace ; « Espaces uniquement » conserve les sauts de ligne et les espaces qui les entourent tout en normalisant les autres espaces de chaque ligne. Le code en ligne dans le texte des liens et le texte alternatif des images ne sont jamais modifiés."
+
+msgid "Semantic (keep tight/loose as authored, fix mixed spacing)"
+msgstr "Sémantique (conserver serré/aéré tel qu’écrit, corriger l’espacement mixte)"
+
+msgid "Preserve as written"
+msgstr "Conserver tel qu’écrit"
+
+msgid "Tight (no blank lines between items)"
+msgstr "Serré (pas de ligne vide entre les éléments)"
+
+msgid "Loose (blank line between items)"
+msgstr "Aéré (ligne vide entre les éléments)"
+
+msgid "List spacing"
+msgstr "Espacement des listes"
+
+msgid "Semantic keeps each list tight or loose as authored and only makes mixed spacing consistent, so rendering never changes. This setting also controls spacing between blocks inside list items; the individual block-spacing settings only affect root-level blocks. Note: Tightening is skipped for a whole list when any item holds multi-block content (e.g. a second paragraph)"
+msgstr "« Sémantique » conserve chaque liste serrée ou aérée telle qu’elle a été écrite et uniformise seulement l’espacement mixte, de sorte que le rendu ne change jamais. Ce réglage contrôle aussi l’espacement entre les blocs à l’intérieur des éléments de liste ; les réglages individuels d’espacement des blocs ne concernent que les blocs de premier niveau. Remarque : le resserrement est ignoré pour toute la liste dès qu’un élément contient plusieurs blocs (par ex. un deuxième paragraphe)."
+
+msgid "Tabs"
+msgstr "Tabulations"
+
+msgid "2 spaces"
+msgstr "2 espaces"
+
+msgid "4 spaces"
+msgstr "4 espaces"
+
+msgid "List indentation"
+msgstr "Indentation des listes"
+
+msgid "Preferred indentation before nested list markers. It may be widened to preserve CommonMark nesting; for example, 2 spaces becomes 3 beneath `1.` and 4 beneath `10.`."
+msgstr "Indentation préférée avant les marqueurs de listes imbriquées. Elle peut être élargie pour préserver l’imbrication CommonMark ; par exemple, 2 espaces deviennent 3 sous `1.` et 4 sous `10.`."
+
+msgid "Preserve (leave tables unchanged)"
+msgstr "Conserver (ne pas modifier les tableaux)"
+
+msgid "Compact (one space of cell padding)"
+msgstr "Compact (une espace de marge dans les cellules)"
+
+msgid "Aligned (pad cells so pipes line up)"
+msgstr "Aligné (compléter les cellules pour aligner les barres verticales)"
+
+msgid "Table style"
+msgstr "Style des tableaux"
+
+msgid "How to lay out table cells and delimiter rows."
+msgstr "Disposition des cellules et des lignes de séparation des tableaux."
+
+msgid "Ensure blank lines around headings"
+msgstr "Garantir des lignes vides autour des titres"
+
+msgid "Add one blank line before and after root-level headings when neighboring content exists."
+msgstr "Ajouter une ligne vide avant et après les titres de premier niveau lorsqu’un contenu voisin existe."
+
+msgid "Normalize heading marker spacing"
+msgstr "Normaliser l’espacement des marqueurs de titre"
+
+msgid "Use one space between ATX heading markers and heading text, including optional closing markers."
+msgstr "Utiliser une seule espace entre les marqueurs de titre ATX et le texte du titre, y compris les marqueurs de fermeture facultatifs."
+
+msgid "Remove heading indentation"
+msgstr "Supprimer l’indentation des titres"
+
+msgid "Move root-level ATX headings to the start of the line. Indented code and headings inside lists or blockquotes are unchanged."
+msgstr "Placer les titres ATX de premier niveau en début de ligne. Le code indenté et les titres dans les listes ou les citations ne sont pas modifiés."
+
+msgid "Ensure blank lines around paragraphs"
+msgstr "Garantir des lignes vides autour des paragraphes"
+
+msgid "Add one blank line before and after root-level paragraphs when neighboring content exists."
+msgstr "Ajouter une ligne vide avant et après les paragraphes de premier niveau lorsqu’un contenu voisin existe."
+
+msgid "Ensure blank lines around code blocks"
+msgstr "Garantir des lignes vides autour des blocs de code"
+
+msgid "Add one blank line before and after root-level code blocks when neighboring content exists."
+msgstr "Ajouter une ligne vide avant et après les blocs de code de premier niveau lorsqu’un contenu voisin existe."
+
+msgid "Set default language on unlabeled code blocks"
+msgstr "Définir un langage par défaut pour les blocs de code sans langage"
+
+msgid "Add the configured language to fenced code blocks that do not specify one. Indented code blocks are left unchanged."
+msgstr "Ajouter le langage configuré aux blocs de code délimités qui n’en précisent pas. Les blocs de code indentés ne sont pas modifiés."
+
+msgid "Default code block language"
+msgstr "Langage par défaut des blocs de code"
+
+msgid "Language identifier to add when the default code block language rule is enabled, for example text, javascript, or bash."
+msgstr "Identifiant de langage à ajouter lorsque la règle du langage par défaut des blocs de code est activée, par exemple text, javascript ou bash."
+
+msgid "Ensure blank lines around math blocks"
+msgstr "Garantir des lignes vides autour des blocs mathématiques"
+
+msgid "Add one blank line before and after root-level math blocks when neighboring content exists."
+msgstr "Ajouter une ligne vide avant et après les blocs mathématiques de premier niveau lorsqu’un contenu voisin existe."
+
+msgid "Ensure blank lines around tables"
+msgstr "Garantir des lignes vides autour des tableaux"
+
+msgid "Add one blank line before and after root-level tables when neighboring content exists."
+msgstr "Ajouter une ligne vide avant et après les tableaux de premier niveau lorsqu’un contenu voisin existe."
+
+msgid "Ensure blank lines around blockquotes"
+msgstr "Garantir des lignes vides autour des citations"
+
+msgid "Add one blank line before and after root-level blockquotes when neighboring content exists."
+msgstr "Ajouter une ligne vide avant et après les citations de premier niveau lorsqu’un contenu voisin existe."
+
+msgid "Normalize blockquote marker spacing"
+msgstr "Normaliser l’espacement des marqueurs de citation"
+
+msgid "Use one space between blockquote `>` markers and quoted content, and between markers in nested quotes (`>>` becomes `> >`). Content requiring exact indentation (e.g. code inside the quote) and lists inside blockquotes are left unchanged."
+msgstr "Utiliser une seule espace entre les marqueurs de citation `>` et le contenu cité, ainsi qu’entre les marqueurs des citations imbriquées (`>>` devient `> >`). Le contenu nécessitant une indentation exacte (par ex. du code dans la citation) et les listes dans les citations ne sont pas modifiés."
+
+msgid "Ensure blank lines around lists"
+msgstr "Garantir des lignes vides autour des listes"
+
+msgid "Add one blank line before and after root-level lists when neighboring content exists."
+msgstr "Ajouter une ligne vide avant et après les listes de premier niveau lorsqu’un contenu voisin existe."
+
+msgid "Ensure blank line after front matter"
+msgstr "Garantir une ligne vide après le front matter"
+
+msgid "Add one blank line between YAML front matter and following content."
+msgstr "Ajouter une ligne vide entre le front matter YAML et le contenu qui suit."
+
+msgid "Normalize heading level increments"
+msgstr "Normaliser la progression des niveaux de titre"
+
+msgid "Lower skipped heading levels so headings increase by at most one level at a time."
+msgstr "Abaisser les niveaux de titre sautés afin que les titres ne descendent que d’un niveau à la fois au maximum."
+
+msgid "None (no minimum heading level)"
+msgstr "Aucun (pas de niveau de titre minimal)"
+
+msgid "H2 (start the note at level 2)"
+msgstr "H2 (commencer la note au niveau 2)"
+
+msgid "First heading (start at the first heading’s own level)"
+msgstr "Premier titre (commencer au niveau du premier titre)"
+
+msgid "Minimum heading level"
+msgstr "Niveau de titre minimal"
+
+msgid "Shallowest heading level the note may use, applied by the heading level increment rule. H2 moves every heading by the same amount so the first one becomes level 2, keeping the note’s relative hierarchy. First heading keeps the first heading as written and raises any later heading that goes above it. Setext (underlined) headings are left as written."
+msgstr "Niveau de titre le plus élevé que la note peut utiliser, appliqué par la règle de progression des niveaux de titre. « H2 » décale tous les titres de la même valeur pour que le premier passe au niveau 2, en conservant la hiérarchie relative de la note. « Premier titre » conserve le premier titre tel qu’écrit et abaisse tout titre ultérieur situé au-dessus. Les titres Setext (soulignés) restent tels qu’écrits."
+
+msgid "Collapse consecutive blank lines"
+msgstr "Fusionner les lignes vides consécutives"
+
+msgid "Reduce runs of blank lines to a single blank line (outside code blocks)."
+msgstr "Réduire les suites de lignes vides à une seule ligne vide (hors blocs de code)."
+
+msgid "Trim trailing whitespace"
+msgstr "Supprimer les espaces en fin de ligne"
+
+msgid "Remove trailing spaces and tabs outside protected content, preserving two-space hard line breaks."
+msgstr "Supprimer les espaces et tabulations en fin de ligne hors du contenu protégé, en conservant les sauts de ligne forcés à deux espaces."
+
+msgid "Remove leading blank lines"
+msgstr "Supprimer les lignes vides initiales"
+
+msgid "Start the note with its first content or front matter, without blank lines before it."
+msgstr "Faire commencer la note par son premier contenu ou son front matter, sans ligne vide avant."
+
+msgid "Ensure trailing newline"
+msgstr "Garantir un saut de ligne final"
+
+msgid "End the note with exactly one newline."
+msgstr "Terminer la note par exactement un saut de ligne."
+
+msgid "Preview changes before applying"
+msgstr "Prévisualiser les modifications avant de les appliquer"
+
+msgid "Show the formatting changes as a diff, with buttons to apply or cancel them."
+msgstr "Afficher les modifications de mise en forme sous forme de diff, avec des boutons pour les appliquer ou les annuler."
+
+msgid "Display toast messages"
+msgstr "Afficher les notifications"
+
+msgid "Show a toast after formatting with the number of characters added and removed."
+msgstr "Afficher une notification après la mise en forme avec le nombre de caractères ajoutés et supprimés."

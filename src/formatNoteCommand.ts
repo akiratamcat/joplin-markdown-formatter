@@ -1,5 +1,6 @@
 import { computeCharacterChangeStats, formatCharacterChangeStats } from './changeStats';
 import { formatMarkdown, type FormatterOptions } from './formatter';
+import { _ } from './i18n';
 
 interface CommandLogger {
     debug(message: string, ...args: unknown[]): void;
@@ -55,7 +56,7 @@ export async function executeFormatMarkdownNote(dependencies: FormatNoteCommandD
         if (result.text === currentText) {
             logger.debug('Note already formatted; no changes.');
             if (displayToastMessages) {
-                await showToast({ message: 'No formatting changes needed.', type: 'info' });
+                await showToast({ message: _('No formatting changes needed.'), type: 'info' });
             }
             return;
         }
@@ -75,7 +76,7 @@ export async function executeFormatMarkdownNote(dependencies: FormatNoteCommandD
         if (displayToastMessages) {
             const stats = computeCharacterChangeStats(currentText, result.text);
             await showToast({
-                message: `Markdown formatted. ${formatCharacterChangeStats(stats)}.`,
+                message: _('Markdown formatted. {stats}.', { stats: formatCharacterChangeStats(stats) }),
                 type: 'success',
             });
         }

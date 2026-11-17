@@ -1,0 +1,297 @@
+# Chinese (Traditional) translation of Joplin Markdown Formatter.
+# Machine-generated for a personal test build; not reviewed by a native speaker.
+msgid ""
+msgstr ""
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Characters added: {added}, removed: {removed}"
+msgstr "新增字元: {added}，刪除字元: {removed}"
+
+msgid "Apply"
+msgstr "套用"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Review formatting changes"
+msgstr "檢視格式化變更"
+
+msgid "Skipped by the structural safety check: {rules}"
+msgstr "因結構安全檢查而略過的規則: {rules}"
+
+msgid "No changes."
+msgstr "沒有變更。"
+
+msgid "No newline at end of file"
+msgstr "檔案結尾沒有換行字元"
+
+msgid "No formatting changes needed."
+msgstr "不需要格式化變更。"
+
+msgid "Markdown formatted. {stats}."
+msgstr "Markdown 已格式化。{stats}。"
+
+msgid "Format Markdown"
+msgstr "格式化 Markdown"
+
+msgid "Formatting applied by the \"Format Markdown\" command."
+msgstr "「格式化 Markdown」命令所套用的格式設定。"
+
+msgid "- (dash)"
+msgstr "- (連字號)"
+
+msgid "* (asterisk)"
+msgstr "* (星號)"
+
+msgid "Preserve (leave markers unchanged)"
+msgstr "保留 (不變更標記)"
+
+msgid "Unordered list marker"
+msgstr "無序清單標記"
+
+msgid "Note: CommonMark treats adjacent lists with different bullets as separate lists; normalizing their markers merges them."
+msgstr "注意: CommonMark 會將使用不同項目符號的相鄰清單視為不同的清單；統一標記會將它們合併為一個清單。"
+
+msgid "Normalize ordered list numbering"
+msgstr "規範編號清單的編號"
+
+msgid "Renumber ordered lists sequentially, keeping the first item’s number."
+msgstr "依序重新編號編號清單，保留第一個項目的編號。"
+
+msgid "Horizontal rule marker"
+msgstr "水平分隔線標記"
+
+msgid "Emphasis (italic) marker"
+msgstr "強調 (斜體) 標記"
+
+msgid "Bold marker"
+msgstr "粗體標記"
+
+msgid "Preserve (leave quotes unchanged)"
+msgstr "保留 (不變更引號)"
+
+msgid "Straight (\"quote\")"
+msgstr "直引號 (\"quote\")"
+
+msgid "Smart (“quote”)"
+msgstr "彎引號 (“quote”)"
+
+msgid "Double quote style"
+msgstr "雙引號樣式"
+
+msgid "Convert double quotes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "轉換內文中的雙引號。程式碼、數學式、HTML、前置資料與連結標題永遠不會變更。"
+
+msgid "Straight ('quote', don't)"
+msgstr "直引號 ('quote', don't)"
+
+msgid "Smart (‘quote’, don’t)"
+msgstr "彎引號 (‘quote’, don’t)"
+
+msgid "Single quote style"
+msgstr "單引號樣式"
+
+msgid "Convert single quotes and apostrophes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "轉換內文中的單引號與撇號。程式碼、數學式、HTML、前置資料與連結標題永遠不會變更。"
+
+msgid "All (also collapse line breaks, keeping labels on one line)"
+msgstr "全部 (也合併換行，讓標籤保持在一行)"
+
+msgid "Spaces only (preserve line breaks inside labels)"
+msgstr "僅空格 (保留標籤內的換行)"
+
+msgid "Preserve (leave link text unchanged)"
+msgstr "保留 (不變更連結文字)"
+
+msgid "Link text spacing"
+msgstr "連結文字空白"
+
+msgid "Collapse excess internal whitespace and trim leading/trailing spaces inside link text, including reference links. All also turns line breaks (soft and hard) into a space; spaces only preserves line breaks and their surrounding whitespace while normalizing other whitespace on each line. Inline code inside link text and image alt text are never changed."
+msgstr "合併連結文字 (包含參考連結) 內部多餘的空白，並移除前後空格。「全部」還會將換行 (軟換行與硬換行) 取代為一個空格；「僅空格」會保留換行及其周圍的空白，只規範每行中的其他空白。連結文字中的行內程式碼與圖片替代文字永遠不會變更。"
+
+msgid "Semantic (keep tight/loose as authored, fix mixed spacing)"
+msgstr "語意 (保持撰寫時的緊密/寬鬆，修正混合間距)"
+
+msgid "Preserve as written"
+msgstr "保持原樣"
+
+msgid "Tight (no blank lines between items)"
+msgstr "緊密 (項目之間沒有空行)"
+
+msgid "Loose (blank line between items)"
+msgstr "寬鬆 (項目之間有空行)"
+
+msgid "List spacing"
+msgstr "清單間距"
+
+msgid "Semantic keeps each list tight or loose as authored and only makes mixed spacing consistent, so rendering never changes. This setting also controls spacing between blocks inside list items; the individual block-spacing settings only affect root-level blocks. Note: Tightening is skipped for a whole list when any item holds multi-block content (e.g. a second paragraph)"
+msgstr "「語意」會保持每個清單撰寫時的緊密或寬鬆狀態，只統一混合的間距，因此呈現結果不會改變。此設定也控制清單項目內各區塊之間的間距；個別的區塊間距設定只影響根層級區塊。注意: 只要任一項目包含多區塊內容 (例如第二個段落)，整個清單就會略過緊密化處理。"
+
+msgid "Tabs"
+msgstr "Tab"
+
+msgid "2 spaces"
+msgstr "2 個空格"
+
+msgid "4 spaces"
+msgstr "4 個空格"
+
+msgid "List indentation"
+msgstr "清單縮排"
+
+msgid "Preferred indentation before nested list markers. It may be widened to preserve CommonMark nesting; for example, 2 spaces becomes 3 beneath `1.` and 4 beneath `10.`."
+msgstr "巢狀清單標記前的偏好縮排。為了保持 CommonMark 的巢狀關係，縮排可能會加寬；例如 2 個空格在 `1.` 底下會變成 3 個，在 `10.` 底下會變成 4 個。"
+
+msgid "Preserve (leave tables unchanged)"
+msgstr "保留 (不變更表格)"
+
+msgid "Compact (one space of cell padding)"
+msgstr "緊湊 (儲存格內距為一個空格)"
+
+msgid "Aligned (pad cells so pipes line up)"
+msgstr "對齊 (填補儲存格使直線對齊)"
+
+msgid "Table style"
+msgstr "表格樣式"
+
+msgid "How to lay out table cells and delimiter rows."
+msgstr "表格儲存格與分隔列的排版方式。"
+
+msgid "Ensure blank lines around headings"
+msgstr "確保標題前後有空行"
+
+msgid "Add one blank line before and after root-level headings when neighboring content exists."
+msgstr "當根層級標題前後有相鄰內容時，在其前後各加入一個空行。"
+
+msgid "Normalize heading marker spacing"
+msgstr "規範標題標記間距"
+
+msgid "Use one space between ATX heading markers and heading text, including optional closing markers."
+msgstr "在 ATX 標題標記與標題文字之間 (包含可選的結尾標記) 使用一個空格。"
+
+msgid "Remove heading indentation"
+msgstr "移除標題縮排"
+
+msgid "Move root-level ATX headings to the start of the line. Indented code and headings inside lists or blockquotes are unchanged."
+msgstr "將根層級 ATX 標題移到行首。縮排程式碼以及清單或引言中的標題不會變更。"
+
+msgid "Ensure blank lines around paragraphs"
+msgstr "確保段落前後有空行"
+
+msgid "Add one blank line before and after root-level paragraphs when neighboring content exists."
+msgstr "當根層級段落前後有相鄰內容時，在其前後各加入一個空行。"
+
+msgid "Ensure blank lines around code blocks"
+msgstr "確保程式碼區塊前後有空行"
+
+msgid "Add one blank line before and after root-level code blocks when neighboring content exists."
+msgstr "當根層級程式碼區塊前後有相鄰內容時，在其前後各加入一個空行。"
+
+msgid "Set default language on unlabeled code blocks"
+msgstr "為未標示語言的程式碼區塊設定預設語言"
+
+msgid "Add the configured language to fenced code blocks that do not specify one. Indented code blocks are left unchanged."
+msgstr "為未指定語言的圍欄程式碼區塊加入設定的語言。縮排程式碼區塊不會變更。"
+
+msgid "Default code block language"
+msgstr "預設程式碼區塊語言"
+
+msgid "Language identifier to add when the default code block language rule is enabled, for example text, javascript, or bash."
+msgstr "啟用預設程式碼區塊語言規則時要加入的語言識別碼，例如 text、javascript 或 bash。"
+
+msgid "Ensure blank lines around math blocks"
+msgstr "確保數學式區塊前後有空行"
+
+msgid "Add one blank line before and after root-level math blocks when neighboring content exists."
+msgstr "當根層級數學式區塊前後有相鄰內容時，在其前後各加入一個空行。"
+
+msgid "Ensure blank lines around tables"
+msgstr "確保表格前後有空行"
+
+msgid "Add one blank line before and after root-level tables when neighboring content exists."
+msgstr "當根層級表格前後有相鄰內容時，在其前後各加入一個空行。"
+
+msgid "Ensure blank lines around blockquotes"
+msgstr "確保引言前後有空行"
+
+msgid "Add one blank line before and after root-level blockquotes when neighboring content exists."
+msgstr "當根層級引言前後有相鄰內容時，在其前後各加入一個空行。"
+
+msgid "Normalize blockquote marker spacing"
+msgstr "規範引言標記間距"
+
+msgid "Use one space between blockquote `>` markers and quoted content, and between markers in nested quotes (`>>` becomes `> >`). Content requiring exact indentation (e.g. code inside the quote) and lists inside blockquotes are left unchanged."
+msgstr "在引言的 `>` 標記與引用內容之間，以及巢狀引言的標記之間使用一個空格 (`>>` 會變成 `> >`)。需要精確縮排的內容 (例如引言中的程式碼) 與引言中的清單不會變更。"
+
+msgid "Ensure blank lines around lists"
+msgstr "確保清單前後有空行"
+
+msgid "Add one blank line before and after root-level lists when neighboring content exists."
+msgstr "當根層級清單前後有相鄰內容時，在其前後各加入一個空行。"
+
+msgid "Ensure blank line after front matter"
+msgstr "確保前置資料後有空行"
+
+msgid "Add one blank line between YAML front matter and following content."
+msgstr "在 YAML 前置資料與後續內容之間加入一個空行。"
+
+msgid "Normalize heading level increments"
+msgstr "規範標題層級遞增"
+
+msgid "Lower skipped heading levels so headings increase by at most one level at a time."
+msgstr "降低跳級的標題層級，讓標題每次最多加深一級。"
+
+msgid "None (no minimum heading level)"
+msgstr "無 (不設最小標題層級)"
+
+msgid "H2 (start the note at level 2)"
+msgstr "H2 (筆記從第 2 級開始)"
+
+msgid "First heading (start at the first heading’s own level)"
+msgstr "第一個標題 (從第一個標題本身的層級開始)"
+
+msgid "Minimum heading level"
+msgstr "最小標題層級"
+
+msgid "Shallowest heading level the note may use, applied by the heading level increment rule. H2 moves every heading by the same amount so the first one becomes level 2, keeping the note’s relative hierarchy. First heading keeps the first heading as written and raises any later heading that goes above it. Setext (underlined) headings are left as written."
+msgstr "筆記可使用的最淺標題層級，由標題層級遞增規則套用。「H2」會將所有標題移動相同的量，讓第一個標題變成第 2 級，並保持筆記的相對階層。「第一個標題」會保持第一個標題不變，並加深之後任何比它更淺的標題。Setext (底線式) 標題會保持原樣。"
+
+msgid "Collapse consecutive blank lines"
+msgstr "合併連續空行"
+
+msgid "Reduce runs of blank lines to a single blank line (outside code blocks)."
+msgstr "將連續空行合併為一個空行 (程式碼區塊之外)。"
+
+msgid "Trim trailing whitespace"
+msgstr "移除行尾空白"
+
+msgid "Remove trailing spaces and tabs outside protected content, preserving two-space hard line breaks."
+msgstr "移除受保護內容之外的行尾空格與 Tab，保留兩個空格的硬換行。"
+
+msgid "Remove leading blank lines"
+msgstr "移除開頭空行"
+
+msgid "Start the note with its first content or front matter, without blank lines before it."
+msgstr "讓筆記從第一個內容或前置資料開始，前面沒有空行。"
+
+msgid "Ensure trailing newline"
+msgstr "確保結尾換行"
+
+msgid "End the note with exactly one newline."
+msgstr "讓筆記以剛好一個換行字元結尾。"
+
+msgid "Preview changes before applying"
+msgstr "套用前預覽變更"
+
+msgid "Show the formatting changes as a diff, with buttons to apply or cancel them."
+msgstr "以差異形式顯示格式化變更，並提供套用或取消按鈕。"
+
+msgid "Display toast messages"
+msgstr "顯示快顯訊息"
+
+msgid "Show a toast after formatting with the number of characters added and removed."
+msgstr "格式化後顯示快顯訊息，包含新增與刪除的字元數。"

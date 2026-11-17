@@ -15,11 +15,8 @@ describe('computeCharacterChangeStats', () => {
 });
 
 describe('formatCharacterChangeStats', () => {
-    test('formats plural labels', () => {
-        expect(formatCharacterChangeStats({ added: 2, removed: 0 })).toBe('2 characters added, 0 characters removed');
-    });
-
-    test('formats singular labels', () => {
-        expect(formatCharacterChangeStats({ added: 1, removed: 1 })).toBe('1 character added, 1 character removed');
+    test('formats added and removed counts without plural forms', () => {
+        expect(formatCharacterChangeStats({ added: 2, removed: 0 })).toBe('Characters added: 2, removed: 0');
+        expect(formatCharacterChangeStats({ added: 1, removed: 1 })).toBe('Characters added: 1, removed: 1');
     });
 });

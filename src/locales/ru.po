@@ -1,0 +1,297 @@
+# Russian translation of Joplin Markdown Formatter.
+# Machine-generated for a personal test build; not reviewed by a native speaker.
+msgid ""
+msgstr ""
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Characters added: {added}, removed: {removed}"
+msgstr "Добавлено символов: {added}, удалено: {removed}"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Review formatting changes"
+msgstr "Просмотр изменений форматирования"
+
+msgid "Skipped by the structural safety check: {rules}"
+msgstr "Пропущено проверкой структурной безопасности: {rules}"
+
+msgid "No changes."
+msgstr "Изменений нет."
+
+msgid "No newline at end of file"
+msgstr "Нет перевода строки в конце файла"
+
+msgid "No formatting changes needed."
+msgstr "Изменения форматирования не требуются."
+
+msgid "Markdown formatted. {stats}."
+msgstr "Markdown отформатирован. {stats}."
+
+msgid "Format Markdown"
+msgstr "Форматировать Markdown"
+
+msgid "Formatting applied by the \"Format Markdown\" command."
+msgstr "Форматирование, применяемое командой «Форматировать Markdown»."
+
+msgid "- (dash)"
+msgstr "- (дефис)"
+
+msgid "* (asterisk)"
+msgstr "* (звёздочка)"
+
+msgid "Preserve (leave markers unchanged)"
+msgstr "Сохранять (не изменять маркеры)"
+
+msgid "Unordered list marker"
+msgstr "Маркер маркированного списка"
+
+msgid "Note: CommonMark treats adjacent lists with different bullets as separate lists; normalizing their markers merges them."
+msgstr "Примечание: CommonMark считает соседние списки с разными маркерами отдельными списками; унификация маркеров объединяет их."
+
+msgid "Normalize ordered list numbering"
+msgstr "Нормализовать нумерацию нумерованных списков"
+
+msgid "Renumber ordered lists sequentially, keeping the first item’s number."
+msgstr "Перенумеровать нумерованные списки по порядку, сохраняя номер первого пункта."
+
+msgid "Horizontal rule marker"
+msgstr "Маркер горизонтальной линии"
+
+msgid "Emphasis (italic) marker"
+msgstr "Маркер выделения (курсив)"
+
+msgid "Bold marker"
+msgstr "Маркер полужирного начертания"
+
+msgid "Preserve (leave quotes unchanged)"
+msgstr "Сохранять (не изменять кавычки)"
+
+msgid "Straight (\"quote\")"
+msgstr "Прямые (\"quote\")"
+
+msgid "Smart (“quote”)"
+msgstr "Типографские (“quote”)"
+
+msgid "Double quote style"
+msgstr "Стиль двойных кавычек"
+
+msgid "Convert double quotes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "Преобразовывать двойные кавычки в тексте. Код, формулы, HTML, front matter и заголовки ссылок никогда не изменяются."
+
+msgid "Straight ('quote', don't)"
+msgstr "Прямые ('quote', don't)"
+
+msgid "Smart (‘quote’, don’t)"
+msgstr "Типографские (‘quote’, don’t)"
+
+msgid "Single quote style"
+msgstr "Стиль одинарных кавычек"
+
+msgid "Convert single quotes and apostrophes in prose text. Code, math, HTML, front matter, and link titles are never changed."
+msgstr "Преобразовывать одинарные кавычки и апострофы в тексте. Код, формулы, HTML, front matter и заголовки ссылок никогда не изменяются."
+
+msgid "All (also collapse line breaks, keeping labels on one line)"
+msgstr "Все (также объединять переводы строк, оставляя подписи в одной строке)"
+
+msgid "Spaces only (preserve line breaks inside labels)"
+msgstr "Только пробелы (сохранять переводы строк в подписях)"
+
+msgid "Preserve (leave link text unchanged)"
+msgstr "Сохранять (не изменять текст ссылок)"
+
+msgid "Link text spacing"
+msgstr "Пробелы в тексте ссылок"
+
+msgid "Collapse excess internal whitespace and trim leading/trailing spaces inside link text, including reference links. All also turns line breaks (soft and hard) into a space; spaces only preserves line breaks and their surrounding whitespace while normalizing other whitespace on each line. Inline code inside link text and image alt text are never changed."
+msgstr "Сжимать лишние пробелы и удалять начальные и конечные пробелы в тексте ссылок, включая ссылки-сноски. «Все» также заменяет переводы строк (мягкие и жёсткие) одним пробелом; «Только пробелы» сохраняет переводы строк и окружающие их пробелы, нормализуя остальные пробелы в каждой строке. Встроенный код в тексте ссылок и альтернативный текст изображений никогда не изменяются."
+
+msgid "Semantic (keep tight/loose as authored, fix mixed spacing)"
+msgstr "Семантический (сохранять плотность как написано, исправлять смешанные интервалы)"
+
+msgid "Preserve as written"
+msgstr "Сохранять как написано"
+
+msgid "Tight (no blank lines between items)"
+msgstr "Плотный (без пустых строк между пунктами)"
+
+msgid "Loose (blank line between items)"
+msgstr "Свободный (пустая строка между пунктами)"
+
+msgid "List spacing"
+msgstr "Интервалы в списках"
+
+msgid "Semantic keeps each list tight or loose as authored and only makes mixed spacing consistent, so rendering never changes. This setting also controls spacing between blocks inside list items; the individual block-spacing settings only affect root-level blocks. Note: Tightening is skipped for a whole list when any item holds multi-block content (e.g. a second paragraph)"
+msgstr "«Семантический» сохраняет каждый список плотным или свободным, как он был написан, и лишь унифицирует смешанные интервалы, поэтому отображение никогда не меняется. Этот параметр также управляет интервалами между блоками внутри пунктов списка; отдельные параметры интервалов между блоками действуют только на блоки верхнего уровня. Примечание: уплотнение пропускается для всего списка, если какой-либо пункт содержит несколько блоков (например, второй абзац)."
+
+msgid "Tabs"
+msgstr "Табуляция"
+
+msgid "2 spaces"
+msgstr "2 пробела"
+
+msgid "4 spaces"
+msgstr "4 пробела"
+
+msgid "List indentation"
+msgstr "Отступ в списках"
+
+msgid "Preferred indentation before nested list markers. It may be widened to preserve CommonMark nesting; for example, 2 spaces becomes 3 beneath `1.` and 4 beneath `10.`."
+msgstr "Предпочтительный отступ перед маркерами вложенных списков. Он может быть увеличен для сохранения вложенности CommonMark; например, 2 пробела становятся 3 под `1.` и 4 под `10.`."
+
+msgid "Preserve (leave tables unchanged)"
+msgstr "Сохранять (не изменять таблицы)"
+
+msgid "Compact (one space of cell padding)"
+msgstr "Компактный (один пробел отступа в ячейках)"
+
+msgid "Aligned (pad cells so pipes line up)"
+msgstr "Выровненный (дополнять ячейки, чтобы вертикальные черты совпадали)"
+
+msgid "Table style"
+msgstr "Стиль таблиц"
+
+msgid "How to lay out table cells and delimiter rows."
+msgstr "Способ расположения ячеек и строк-разделителей таблиц."
+
+msgid "Ensure blank lines around headings"
+msgstr "Обеспечивать пустые строки вокруг заголовков"
+
+msgid "Add one blank line before and after root-level headings when neighboring content exists."
+msgstr "Добавлять по одной пустой строке до и после заголовков верхнего уровня, если рядом есть содержимое."
+
+msgid "Normalize heading marker spacing"
+msgstr "Нормализовать пробелы после маркеров заголовков"
+
+msgid "Use one space between ATX heading markers and heading text, including optional closing markers."
+msgstr "Использовать один пробел между маркерами заголовков ATX и текстом заголовка, включая необязательные закрывающие маркеры."
+
+msgid "Remove heading indentation"
+msgstr "Удалять отступ заголовков"
+
+msgid "Move root-level ATX headings to the start of the line. Indented code and headings inside lists or blockquotes are unchanged."
+msgstr "Перемещать заголовки ATX верхнего уровня в начало строки. Код с отступом и заголовки внутри списков или цитат не изменяются."
+
+msgid "Ensure blank lines around paragraphs"
+msgstr "Обеспечивать пустые строки вокруг абзацев"
+
+msgid "Add one blank line before and after root-level paragraphs when neighboring content exists."
+msgstr "Добавлять по одной пустой строке до и после абзацев верхнего уровня, если рядом есть содержимое."
+
+msgid "Ensure blank lines around code blocks"
+msgstr "Обеспечивать пустые строки вокруг блоков кода"
+
+msgid "Add one blank line before and after root-level code blocks when neighboring content exists."
+msgstr "Добавлять по одной пустой строке до и после блоков кода верхнего уровня, если рядом есть содержимое."
+
+msgid "Set default language on unlabeled code blocks"
+msgstr "Задавать язык по умолчанию для блоков кода без языка"
+
+msgid "Add the configured language to fenced code blocks that do not specify one. Indented code blocks are left unchanged."
+msgstr "Добавлять настроенный язык к огороженным блокам кода, в которых он не указан. Блоки кода с отступом не изменяются."
+
+msgid "Default code block language"
+msgstr "Язык блоков кода по умолчанию"
+
+msgid "Language identifier to add when the default code block language rule is enabled, for example text, javascript, or bash."
+msgstr "Идентификатор языка, добавляемый при включённом правиле языка блоков кода по умолчанию, например text, javascript или bash."
+
+msgid "Ensure blank lines around math blocks"
+msgstr "Обеспечивать пустые строки вокруг блоков формул"
+
+msgid "Add one blank line before and after root-level math blocks when neighboring content exists."
+msgstr "Добавлять по одной пустой строке до и после блоков формул верхнего уровня, если рядом есть содержимое."
+
+msgid "Ensure blank lines around tables"
+msgstr "Обеспечивать пустые строки вокруг таблиц"
+
+msgid "Add one blank line before and after root-level tables when neighboring content exists."
+msgstr "Добавлять по одной пустой строке до и после таблиц верхнего уровня, если рядом есть содержимое."
+
+msgid "Ensure blank lines around blockquotes"
+msgstr "Обеспечивать пустые строки вокруг цитат"
+
+msgid "Add one blank line before and after root-level blockquotes when neighboring content exists."
+msgstr "Добавлять по одной пустой строке до и после цитат верхнего уровня, если рядом есть содержимое."
+
+msgid "Normalize blockquote marker spacing"
+msgstr "Нормализовать пробелы после маркеров цитат"
+
+msgid "Use one space between blockquote `>` markers and quoted content, and between markers in nested quotes (`>>` becomes `> >`). Content requiring exact indentation (e.g. code inside the quote) and lists inside blockquotes are left unchanged."
+msgstr "Использовать один пробел между маркерами цитат `>` и цитируемым содержимым, а также между маркерами вложенных цитат (`>>` становится `> >`). Содержимое, требующее точного отступа (например, код внутри цитаты), и списки внутри цитат не изменяются."
+
+msgid "Ensure blank lines around lists"
+msgstr "Обеспечивать пустые строки вокруг списков"
+
+msgid "Add one blank line before and after root-level lists when neighboring content exists."
+msgstr "Добавлять по одной пустой строке до и после списков верхнего уровня, если рядом есть содержимое."
+
+msgid "Ensure blank line after front matter"
+msgstr "Обеспечивать пустую строку после front matter"
+
+msgid "Add one blank line between YAML front matter and following content."
+msgstr "Добавлять одну пустую строку между YAML front matter и последующим содержимым."
+
+msgid "Normalize heading level increments"
+msgstr "Нормализовать шаг уровней заголовков"
+
+msgid "Lower skipped heading levels so headings increase by at most one level at a time."
+msgstr "Понижать пропущенные уровни заголовков, чтобы заголовки углублялись не более чем на один уровень за раз."
+
+msgid "None (no minimum heading level)"
+msgstr "Нет (без минимального уровня заголовков)"
+
+msgid "H2 (start the note at level 2)"
+msgstr "H2 (начинать заметку с уровня 2)"
+
+msgid "First heading (start at the first heading’s own level)"
+msgstr "Первый заголовок (начинать с уровня первого заголовка)"
+
+msgid "Minimum heading level"
+msgstr "Минимальный уровень заголовков"
+
+msgid "Shallowest heading level the note may use, applied by the heading level increment rule. H2 moves every heading by the same amount so the first one becomes level 2, keeping the note’s relative hierarchy. First heading keeps the first heading as written and raises any later heading that goes above it. Setext (underlined) headings are left as written."
+msgstr "Самый высокий уровень заголовков, который может использовать заметка; применяется правилом шага уровней заголовков. «H2» сдвигает все заголовки на одинаковую величину, чтобы первый стал уровнем 2, сохраняя относительную иерархию заметки. «Первый заголовок» оставляет первый заголовок как написано и понижает любой последующий заголовок, который оказывается выше него. Заголовки Setext (подчёркнутые) остаются как написано."
+
+msgid "Collapse consecutive blank lines"
+msgstr "Объединять последовательные пустые строки"
+
+msgid "Reduce runs of blank lines to a single blank line (outside code blocks)."
+msgstr "Сокращать серии пустых строк до одной пустой строки (вне блоков кода)."
+
+msgid "Trim trailing whitespace"
+msgstr "Удалять пробелы в конце строк"
+
+msgid "Remove trailing spaces and tabs outside protected content, preserving two-space hard line breaks."
+msgstr "Удалять пробелы и табуляции в конце строк вне защищённого содержимого, сохраняя жёсткие переводы строк из двух пробелов."
+
+msgid "Remove leading blank lines"
+msgstr "Удалять начальные пустые строки"
+
+msgid "Start the note with its first content or front matter, without blank lines before it."
+msgstr "Начинать заметку с первого содержимого или front matter, без пустых строк перед ними."
+
+msgid "Ensure trailing newline"
+msgstr "Обеспечивать завершающий перевод строки"
+
+msgid "End the note with exactly one newline."
+msgstr "Завершать заметку ровно одним переводом строки."
+
+msgid "Preview changes before applying"
+msgstr "Предварительный просмотр изменений перед применением"
+
+msgid "Show the formatting changes as a diff, with buttons to apply or cancel them."
+msgstr "Показывать изменения форматирования в виде diff с кнопками для их применения или отмены."
+
+msgid "Display toast messages"
+msgstr "Показывать всплывающие уведомления"
+
+msgid "Show a toast after formatting with the number of characters added and removed."
+msgstr "Показывать уведомление после форматирования с количеством добавленных и удалённых символов."

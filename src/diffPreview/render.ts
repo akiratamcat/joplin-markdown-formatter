@@ -5,11 +5,12 @@
  * supplied by Joplin itself. Styling lives in styles.css.
  */
 
+import { _ } from '../i18n';
 import type { DiffHunk, DiffLine } from './lineDiff';
 
 export interface DiffPreviewContent {
     hunks: DiffHunk[];
-    /** Short change summary shown under the title, e.g. "12 characters added, 3 characters removed". */
+    /** Short change summary shown under the title, e.g. "Characters added: 12, removed: 3". */
     summary: string;
     /** Rules dropped by the structural safety check, surfaced as a warning. */
     skippedRules: string[];
@@ -33,12 +34,12 @@ function escapeHtml(text: string): string {
 
 export function renderDiffPreviewHtml(content: DiffPreviewContent): string {
     const parts: string[] = ['<div class="mdfmt-diff">', '<header class="mdfmt-diff__header">'];
-    parts.push('<h2 class="mdfmt-diff__title">Review formatting changes</h2>');
+    parts.push(`<h2 class="mdfmt-diff__title">${escapeHtml(_('Review formatting changes'))}</h2>`);
     parts.push(`<p class="mdfmt-diff__summary">${escapeHtml(content.summary)}</p>`);
     if (content.skippedRules.length > 0) {
         parts.push(
-            `<p class="mdfmt-diff__warning">Skipped by the structural safety check: ${escapeHtml(
-                content.skippedRules.join(', ')
+            `<p class="mdfmt-diff__warning">${escapeHtml(
+                _('Skipped by the structural safety check: {rules}', { rules: content.skippedRules.join(', ') })
             )}</p>`
         );
     }
@@ -46,7 +47,7 @@ export function renderDiffPreviewHtml(content: DiffPreviewContent): string {
 
     parts.push('<div class="mdfmt-diff__body">');
     if (content.hunks.length === 0) {
-        parts.push('<p class="mdfmt-diff__empty">No changes.</p>');
+        parts.push(`<p class="mdfmt-diff__empty">${escapeHtml(_('No changes.'))}</p>`);
     } else {
         for (const hunk of content.hunks) parts.push(renderHunk(hunk));
     }
@@ -92,7 +93,7 @@ function renderNoNewlineNote(): string {
         '<span class="mdfmt-line__num"></span>',
         '<span class="mdfmt-line__num"></span>',
         '<span class="mdfmt-line__marker">\\</span>',
-        '<span class="mdfmt-line__text">No newline at end of file</span>',
+        `<span class="mdfmt-line__text">${escapeHtml(_('No newline at end of file'))}</span>`,
         '</div>',
     ].join('');
 }
